@@ -5,7 +5,7 @@ using UnityEngine;
 public class LookAtStuff : MonoBehaviour
 {
 
-    public Transform ThingToLookAt;
+    public float YDistance;
 
     // Start is called before the first frame update
     void Start()
@@ -16,7 +16,12 @@ public class LookAtStuff : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.LookAt(ThingToLookAt);
-        transform.LookAt(new Vector3(transform.position.x, -7, transform.position.z));
+        transform.LookAt(new Vector3(transform.position.x, YDistance, transform.position.z));
+    }
+
+    [ContextMenu("LookAt")]
+    void LookAt()
+    {
+        transform.LookAt(new Vector3(transform.position.x, YDistance, transform.position.z));
     }
 }
