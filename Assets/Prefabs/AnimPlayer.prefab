@@ -243,4 +243,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de56691d14f651c4aaf84f3ce0a91d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ThingToLookAt: {fileID: 0}
+  YDistance: 0
