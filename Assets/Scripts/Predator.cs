@@ -54,7 +54,7 @@ public class Predator : Critter
                 {
                     //TODO: Add delay before stamina reduction and fleeing
 
-                    Player.instance.stamina -= stamDamage;
+                    Player.instance.Stamina -= stamDamage;
                     fleeing = true;
                 }
                 else if(vMag < 0.01f)

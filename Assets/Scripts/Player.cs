@@ -13,7 +13,8 @@ public class Player : MonoBehaviour
     public Inventory inventory;
 
     public float maxStamina;
-    public float stamina { get { return stamina; }
+    private float stamina;
+    public float Stamina { get { return stamina; }
                            set { stamina = value;
                                  if (stamina <= 0)
                                     Die();          } }
@@ -103,9 +104,9 @@ public class Player : MonoBehaviour
     {
         drainStamina = true;
 
-        while(drainStamina && stamina > 0)
+        while(drainStamina && Stamina > 0)
         {
-            stamina -= stamDrain;
+            Stamina -= stamDrain;
             yield return drainWait;
         }
 

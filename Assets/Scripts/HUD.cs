@@ -19,7 +19,7 @@ public class HUD : MonoBehaviour
         food.text = Player.instance.inventory.food.ToString();
 
         Vector3 scale = staminaBar.transform.localScale;
-        scale.x = Player.instance.stamina / Player.instance.maxStamina;
+        scale.x = Player.instance.Stamina / Player.instance.maxStamina;
         staminaBar.transform.localScale = scale;
     }
 }

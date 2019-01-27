@@ -42536,6 +42536,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnimPlayer (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4979270684246752157, guid: 4c28a7abf97fbf8458108d8ec002b41b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4979270684246752144, guid: 4c28a7abf97fbf8458108d8ec002b41b,
         type: 3}
       propertyPath: m_LocalPosition.x
