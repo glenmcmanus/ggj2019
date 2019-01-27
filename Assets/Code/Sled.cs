@@ -13,6 +13,7 @@ public class Sled : MonoBehaviour
     public int woodNeededForStage3 = 25;
     public int woodNeededForStage4 = 25;
     public int woodNeededForStage5 = 25;
+    public int totalWoodNeeded { get { return woodNeededForStage1 + woodNeededForStage2 + woodNeededForStage3 + woodNeededForStage4 + woodNeededForStage5; } }
 
     public int totalWood = 0;
     public bool complete = false;

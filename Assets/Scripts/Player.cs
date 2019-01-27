@@ -37,7 +37,7 @@ public class Player : MonoBehaviour
         else
         {
             instance = this;
-            inventory = new Inventory();
+            //inventory = new Inventory();
 
             drainWait = new WaitForSeconds(drainStep);
         }
@@ -104,6 +104,7 @@ public class Player : MonoBehaviour
     }
 }
 
+[Serializable]
 public class Inventory
 {
     public int wood;
