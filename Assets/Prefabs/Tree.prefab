@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2086179925}
   - component: {fileID: 2086179924}
   - component: {fileID: 2086179923}
-  - component: {fileID: 2086179922}
   - component: {fileID: 2086179926}
   m_Layer: 0
   m_Name: GameObject
@@ -82,7 +81,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!114 &2086179924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,19 +118,6 @@ MonoBehaviour:
   woodValue: 1
   spriteRenderer: {fileID: 2086179925}
   stump: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
---- !u!114 &2086179922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2086179920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de56691d14f651c4aaf84f3ce0a91d3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  YDistance: -7
 --- !u!65 &2086179926
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -143,8 +129,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.65390253, y: 1.6303415, z: 0.20000005}
-  m_Center: {x: 0.00513196, y: 0.77547073, z: 0}
+  m_Size: {x: 0.55152917, y: 1.4675295, z: 0.20000005}
+  m_Center: {x: -0.027441382, y: 0.7777966, z: 0}
 --- !u!1 &3851666980600498942
 GameObject:
   m_ObjectHideFlags: 0

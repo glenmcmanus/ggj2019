@@ -9,9 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4979270684246752144}
-  - component: {fileID: 4979270684246752145}
-  - component: {fileID: 4979270684246752146}
-  - component: {fileID: 4979270684246752147}
   - component: {fileID: 4979270684246752156}
   m_Layer: 0
   m_Name: AnimPlayer
@@ -35,65 +32,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4979270684246752145
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4979270684246752157}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &4979270684246752146
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4979270684246752157}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: d173cdfafb2ce2147854cc6c0a5b79f7, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!136 &4979270684246752147
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4979270684246752157}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &4979270684246752156
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -103,16 +41,16 @@ NavMeshAgent:
   m_GameObject: {fileID: 4979270684246752157}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
+  m_Radius: 0.2
+  m_Speed: 1
+  m_Acceleration: 2
   avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 2
+  m_Height: 0.5
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
@@ -128,7 +66,7 @@ GameObject:
   - component: {fileID: 4979270684576399478}
   - component: {fileID: 4979270684576399479}
   - component: {fileID: 4979270684576399476}
-  - component: {fileID: 4979270684576399435}
+  - component: {fileID: 1398031498}
   m_Layer: 0
   m_Name: Lumberjack_0
   m_TagString: Untagged
@@ -143,9 +81,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4979270684576399472}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.096, y: -1.05, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4979270684246752144}
   m_RootOrder: 0
@@ -167,7 +105,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d173cdfafb2ce2147854cc6c0a5b79f7, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -197,7 +135,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!95 &4979270684576399479
 Animator:
   serializedVersion: 3
@@ -231,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
   Speed: {x: 0, y: 0, z: 0}
---- !u!114 &4979270684576399435
+--- !u!114 &1398031498
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -243,4 +181,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de56691d14f651c4aaf84f3ce0a91d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  YDistance: 0
+  LookAtTransform: {fileID: 0}
