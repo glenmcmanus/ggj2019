@@ -26,16 +26,18 @@ public class HouseStuff : ScriptableObject
     public int minMedicinePerDayForDogPerDay { get { return diseaseAdvancesPerDay / diseaseOneMedicineCures; } }
 
 
-    [Header("Runtime Variables")]
+    [Header("Runtime Variables For UI")]
     public int woodForSled = 0;
     public int woodForFire = 0;
     public int foodForDog = 0;
     public int foodForYou = 0;
     public int medicineForDog = 0;
 
+    [Header("Runtime Variables For Doggo")]
     public float dogDisease = 100;
     public float dogHealth = 25;
 
+    [Header("Misc")]
     public int daysUntilPassBlocked = 20;
 
     public void StartHouse()
