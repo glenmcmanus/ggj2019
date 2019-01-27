@@ -28,20 +28,20 @@ public class Sled : MonoBehaviour
     public void GiveWood(int amount)
     {
         totalWood += amount;
-        if(totalWood > woodNeededForStage5)
+        if(totalWood > woodNeededForStage5 + woodNeededForStage4+ woodNeededForStage3 + woodNeededForStage2+woodNeededForStage1)
         {
             spriteRenderer.sprite = StageSprites[4];
             complete = true;
         }
-        else if (totalWood > woodNeededForStage4)
+        else if (totalWood > woodNeededForStage4 + woodNeededForStage3+woodNeededForStage2+woodNeededForStage1)
         {
             spriteRenderer.sprite = StageSprites[3];
         }
-        else if (totalWood > woodNeededForStage3)
+        else if (totalWood > woodNeededForStage3 + woodNeededForStage2 + woodNeededForStage1)
         {
             spriteRenderer.sprite = StageSprites[2];
         }
-        else if (totalWood > woodNeededForStage2)
+        else if (totalWood > woodNeededForStage2 + woodNeededForStage1)
         {
             spriteRenderer.sprite = StageSprites[1];
         }
@@ -51,7 +51,7 @@ public class Sled : MonoBehaviour
         }
         else
         {
-            spriteRenderer.sprite = null;
+            
         }
     }
 }

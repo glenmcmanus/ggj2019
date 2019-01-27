@@ -26,6 +26,12 @@ public class CameraFollow : MonoBehaviour
         pos.z += zOffset;
         transform.position = pos;
 
-        transform.LookAt(ToFollow);
+        //transform.LookAt(ToFollow);
+    }
+
+    [ContextMenu("Update")]
+    void DoUpdate()
+    {
+        Update();
     }
 }

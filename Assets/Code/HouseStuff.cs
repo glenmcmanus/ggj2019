@@ -65,6 +65,12 @@ public class HouseStuff : MonoBehaviour
 
         daysUntilPassBlocked -= 1;
 
+        woodForSled = 0;
+        woodForFire = 0;
+        foodForDog = 0;
+        foodForYou = 0;
+        medicineForDog = 0;
+
         if(dogHealth <= 0)
         {
             DogDies.Invoke();
