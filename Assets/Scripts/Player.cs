@@ -68,12 +68,12 @@ public class Player : MonoBehaviour
         OnDone();
     }
 
-    public void MoveTowards(Harvestable selected, Vector3 Position, Action OnReached)
+    public void MoveTowards(float howCloseDoYouWannaGet, Vector3 Position, Action OnReached)
     {
-        StartCoroutine(MoveChecks(selected, Position, OnReached));
+        StartCoroutine(MoveChecks(howCloseDoYouWannaGet, Position, OnReached));
     }
 
-    IEnumerator MoveChecks(Harvestable selected, Vector3 Position, Action OnReach)
+    IEnumerator MoveChecks(float howCloseDoYouWannaGet, Vector3 Position, Action OnReach)
     {
         var agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         agent.SetDestination(Position);
@@ -82,8 +82,8 @@ public class Player : MonoBehaviour
 		
 		while (!GoingToNewPosition)
         {
-            Debug.Log((transform.position - Position).magnitude);
-            if(transform.position.XZDifference(Position) <= selected.minDistToHarvest)
+            Debug.Log(transform.position.XZDifference(Position));
+            if(transform.position.XZDifference(Position) <= howCloseDoYouWannaGet)
             {
                 Debug.Log("Reached");
                 OnReach();

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[CreateAssetMenu(menuName = "HouseValues")]
 public class HouseStuff : MonoBehaviour
 {
     [Header("Minimums & Defines")]

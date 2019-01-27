@@ -177,8 +177,8 @@ MonoBehaviour:
   available: 1
   spriteGlow: {fileID: 7898604104476023602}
   spriteRenderer: {fileID: 7898604104476023603}
-  afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  minDistToHarvest: 1
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 0.55
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:

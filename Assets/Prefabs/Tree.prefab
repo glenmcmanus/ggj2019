@@ -117,7 +117,7 @@ MonoBehaviour:
   spriteGlow: {fileID: 2086179924}
   spriteRenderer: {fileID: 2086179925}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
-  minDistToHarvest: 1.25
+  minDistToHarvest: 0.5
   woodValue: 1
   OnTreeMined:
     m_PersistentCalls:
