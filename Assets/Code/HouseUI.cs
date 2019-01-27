@@ -82,21 +82,19 @@ public class HouseUI : MonoBehaviour
 
         Vector3 scale;
         scale = dogHealthBar.transform.localScale;
-        scale.x = houseStuff.DogsHealthNextDay() / 100f;
+        scale.x = Mathf.Max(houseStuff.DogsHealthNextDay() / 100f, 0);
         dogHealthBar.transform.localScale = scale;
 
-
-
         scale = dogDiseaseBar.transform.localScale;
-        scale.x = houseStuff.DogsDiseaseNextDay() / 100f;
+        scale.x = Mathf.Max(houseStuff.DogsDiseaseNextDay() / 100f, 0);
         dogDiseaseBar.transform.localScale = scale;
 
         scale = sledCompletionBar.transform.localScale;
-        scale.x = (float)(houseStuff.woodForSled + Sled.instance.totalWood) / Sled.instance.totalWoodNeeded;
+        scale.x = Mathf.Max((float)(houseStuff.woodForSled + Sled.instance.totalWood) / Sled.instance.totalWoodNeeded, 0);
         sledCompletionBar.transform.localScale = scale;
 
         scale = staminaBar.transform.localScale;
-        scale.x = houseStuff.NextDayStamina() / 100f;
+        scale.x = Mathf.Max(houseStuff.NextDayStamina() / 100f, 0);
         staminaBar.transform.localScale = scale;
     }
 

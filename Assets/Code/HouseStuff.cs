@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [CreateAssetMenu(menuName = "HouseValues")]
 public class HouseStuff : MonoBehaviour
@@ -42,6 +43,9 @@ public class HouseStuff : MonoBehaviour
     [Header("Misc")]
     public int daysUntilPassBlocked = 20;
 
+    public UnityEvent DogDies;
+    public UnityEvent AfterSubmit;
+
     public void StartHouse()
     {
         Player.instance.StopAllCoroutines();
@@ -72,6 +76,11 @@ public class HouseStuff : MonoBehaviour
         {
             TheDogFuckingDies();
         }
+        else
+        {
+            AfterSubmit.Invoke();
+        }
+
     }
 
     public float DogsHealthNextDay()
@@ -106,6 +115,6 @@ public class HouseStuff : MonoBehaviour
 
     public void TheDogFuckingDies()
     {
-
+        DogDies.Invoke();
     }
 }
