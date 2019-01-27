@@ -16,6 +16,7 @@ public class Tree : Harvestable
     public float fallEndAngle = 90f;
     public float fallStep = 1f;
     public float fallRate = 1f;
+    public float fallAcceleration = 0.01f;
     WaitForSeconds fallWait;
 
     bool felled = false;
@@ -56,10 +57,13 @@ public class Tree : Harvestable
     {
         int dir = Player.instance.transform.position.x > transform.position.x ? 1 : -1;
         float t = 0;
+        float acceleration = 1f;
         while(t < fallEndAngle )
         {
-            t += fallStep;
-            trunk.transform.Rotate(Vector3.forward, fallStep * dir);
+            t += fallStep * acceleration;
+            trunk.transform.Rotate(Vector3.forward, fallStep * dir * acceleration);
+            acceleration += fallAcceleration;
+
             yield return fallWait;
         }
 
