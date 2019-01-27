@@ -177,7 +177,7 @@ MonoBehaviour:
   available: 1
   spriteGlow: {fileID: 7898604104476023602}
   spriteRenderer: {fileID: 7898604104476023603}
-  afterHarvestSprite: {fileID: 0}
+  afterHarvestSprite: {fileID: 21300012, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
   minDistToHarvest: 0.55
   medicineValue: 1
   OnFoodChopped:
@@ -207,5 +207,5 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  SpriteVariant1: {fileID: 21300006, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
-  SpriteVariant2: {fileID: 21300008, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
+  SpriteVariant1: {fileID: 21300008, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
+  SpriteVariant2: {fileID: 21300006, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GenerateObjects : MonoBehaviour
 {
+    public LayerMask terrainLayer;
+
     public GameObject[] treePrefabs;
     public GameObject rockPrefab;
     public GameObject medicinePrefab;
@@ -114,9 +116,16 @@ public class GenerateObjects : MonoBehaviour
 
     Vector3 RandomPos()
     {
-        return new Vector3(Random.Range(Mathf.Floor(-box.size.x / 2), Mathf.Ceil(box.size.x / 2)) + transform.position.x,
+        Vector3 pos = new Vector3(Random.Range(Mathf.Floor(-box.size.x / 2), Mathf.Ceil(box.size.x / 2)) + transform.position.x,
                                       yPos,
                                       Random.Range(Mathf.Floor(-box.size.z / 2), Mathf.Ceil(box.size.z / 2)) + transform.position.z);
+
+        RaycastHit hit;
+        Physics.Raycast(pos, Vector3.down, out hit, 100, terrainLayer);
+
+        pos = new Vector3(pos.x, hit.point.y, pos.z);
+
+        return pos;
     }
 
     bool ValidPosition(Vector3 pos)
