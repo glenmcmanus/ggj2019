@@ -8,7 +8,6 @@ public class Tree : Harvestable
 {
     public SpriteGlowEffect topGlow;
 
-
     public int woodValue = 1;
 
     public UnityEvent OnTreeMined;
@@ -18,6 +17,8 @@ public class Tree : Harvestable
     public float fallStep = 1f;
     public float fallRate = 1f;
     WaitForSeconds fallWait;
+
+    bool felled = false;
 
     private void Awake()
     {
@@ -45,21 +46,24 @@ public class Tree : Harvestable
 
     public override void HarvestDone()
     {
-        StartCoroutine(TreeFall());
+        if(!felled)
+            StartCoroutine(TreeFall());
+
+        felled = true;
     }
 
     IEnumerator TreeFall()
     {
-        int dir = Player.instance.transform.position.x > transform.position.x ? -1 : 1;
+        int dir = Player.instance.transform.position.x > transform.position.x ? 1 : -1;
         float t = 0;
-        while(t < fallEndAngle)
+        while(t < fallEndAngle )
         {
             t += fallStep;
             trunk.transform.Rotate(Vector3.forward, fallStep * dir);
             yield return fallWait;
         }
 
-        trunk.gameObject.SetActive(false);
+        Destroy( trunk.gameObject );
 
         Player.instance.inventory.wood += woodValue;
         OnTreeMined.Invoke();
