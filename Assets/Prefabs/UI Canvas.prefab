@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 2594562307398536027}
   - component: {fileID: 2594562307398536028}
   - component: {fileID: 2594562307398536024}
-  - component: {fileID: 2594562307398536039}
   m_Layer: 5
   m_Name: UI Canvas
   m_TagString: Untagged
@@ -118,20 +117,6 @@ MonoBehaviour:
   wood: {fileID: 2594562307956669081}
   medicine: {fileID: 2594562308787557579}
   food: {fileID: 2594562309399803681}
---- !u!114 &2594562307398536039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2594562307398536029}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4e7875c9c1b308418e0d183646fbfb2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxStamina: 100
-  stamina: 100
 --- !u!1 &2594562307513867929
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,7 +339,7 @@ MonoBehaviour:
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
   m_isInputParsingRequired: 0
-  m_inputSource: 3
+  m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
   - {fileID: 0}
@@ -651,7 +636,7 @@ MonoBehaviour:
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
   m_isInputParsingRequired: 0
-  m_inputSource: 3
+  m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
   - {fileID: 0}
@@ -1036,7 +1021,7 @@ MonoBehaviour:
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
   m_isInputParsingRequired: 0
-  m_inputSource: 3
+  m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
   - {fileID: 0}
