@@ -14,10 +14,11 @@ public abstract class Harvestable : Outlinable
         if (!available)
             return;
 
-        if((Player.instance.transform.position - transform.position).magnitude > minDistToHarvest)
+        if(Player.instance.transform.position.XZDifference(transform.position) > minDistToHarvest)
         {
             Player.instance.MoveTowards(this, transform.position, () => { Harvest(); });
-        } else
+        }
+        else
         {
             Harvest();
         }
@@ -34,4 +35,12 @@ public abstract class Harvestable : Outlinable
     }
 
     public abstract void HarvestDone();
+}
+
+public static class Vector3Helpers
+{
+    public static float XZDifference(this Vector3 vec, Vector3 other)
+    {
+        return Mathf.Sqrt(Mathf.Pow(vec.x - other.x, 2) + Mathf.Pow(vec.z - other.z, 2)); 
+    }
 }

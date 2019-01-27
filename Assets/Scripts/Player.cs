@@ -72,7 +72,7 @@ public class Player : MonoBehaviour
 		while (!GoingToNewPosition)
         {
             Debug.Log((transform.position - Position).magnitude);
-            if((transform.position - Position).magnitude <= selected.minDistToHarvest)
+            if(transform.position.XZDifference(Position) <= selected.minDistToHarvest)
             {
                 Debug.Log("Reached");
                 OnReach();
