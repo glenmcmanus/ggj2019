@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
 
     public Inventory inventory;
 
+    public float maxStamina;
     public float stamina;
 
     public bool drainStamina;
