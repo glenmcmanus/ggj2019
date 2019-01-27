@@ -2931,7 +2931,7 @@ PrefabInstance:
     - target: {fileID: 2575649528259958984, guid: ce441c909d3cef9409d80772a385f044,
         type: 3}
       propertyPath: minDistToHarvest
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce441c909d3cef9409d80772a385f044, type: 3}
