@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4e7875c9c1b308418e0d183646fbfb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  agent: {fileID: 4979270684246752156}
   maxStamina: 100
   stamina: 100
   durationOfHarvest: 2
@@ -165,6 +166,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  drainStamina: 0
+  stamDrain: 0.001
+  drainStep: 1
 --- !u!1 &4979270684576399472
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,3 +284,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
   Speed: {x: 0, y: 0, z: 0}
+  LastPosition: {x: 0, y: 0, z: 0}

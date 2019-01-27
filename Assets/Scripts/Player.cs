@@ -3,15 +3,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.AI;
 
 public class Player : MonoBehaviour
 {
     public static Player instance;
 
+    public NavMeshAgent agent;
     public Inventory inventory;
 
     public float maxStamina;
-    public float stamina;
+    private float stamina;
+    public float Stamina { get { return stamina; }
+                           set { stamina = value;
+                                 if (stamina <= 0)
+                                    Die();          } }
 
     public float durationOfHarvest;
 
@@ -41,6 +47,11 @@ public class Player : MonoBehaviour
 
             drainWait = new WaitForSeconds(drainStep);
         }
+    }
+
+    public void Die()
+    {
+        Debug.Log("You are dead");
     }
 
     public void Harvest(Harvestable selected, Action OnDone)
@@ -93,9 +104,9 @@ public class Player : MonoBehaviour
     {
         drainStamina = true;
 
-        while(drainStamina && stamina > 0)
+        while(drainStamina && Stamina > 0)
         {
-            stamina -= stamDrain;
+            Stamina -= stamDrain;
             yield return drainWait;
         }
 
