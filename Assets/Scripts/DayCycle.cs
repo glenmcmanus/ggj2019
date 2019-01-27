@@ -65,9 +65,9 @@ public class DayCycle : MonoBehaviour
         float t;
         while (curTime < length)
         {
-            Debug.Log("Interpolating pp effects");
+            //Debug.Log("Interpolating pp effects");
             curTime = Time.time - initTime;
-            Debug.Log("curTime: " + curTime);
+            //Debug.Log("curTime: " + curTime);
             t = curTime / length;
             bloom.intensity.Interp(dayBloom.intensity, nightBloom.intensity, t);
             bloom.color.Interp(dayBloom.color, nightBloom.color, t);
@@ -82,6 +82,6 @@ public class DayCycle : MonoBehaviour
             yield return stepDelay;
         }
 
-        Debug.Log("Finished interpolating pp effects");
+        //Debug.Log("Finished interpolating pp effects");
     }
 }
