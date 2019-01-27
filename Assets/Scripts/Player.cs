@@ -20,6 +20,14 @@ public class Player : MonoBehaviour
 
     public bool GoingToNewPosition { get; set; } = false;
 
+    public bool drainStamina;
+    [Tooltip("Amount drained per drain tick")]
+    public float stamDrain = 0.001f;
+    [Tooltip("Seconds between stam drain ticks")]
+    public float drainStep = 1f;
+    WaitForSeconds drainWait;
+
+
     private void Awake()
     {
         if(instance != null)
@@ -30,6 +38,8 @@ public class Player : MonoBehaviour
         {
             instance = this;
             inventory = new Inventory();
+
+            drainWait = new WaitForSeconds(drainStep);
         }
     }
 
@@ -59,8 +69,8 @@ public class Player : MonoBehaviour
         Vector3 dest = agent.pathEndPosition;
         yield return null;
         GoingToNewPosition = false;
-
-        while (!GoingToNewPosition)
+		
+		while (!GoingToNewPosition)
         {
             if((transform.position - Position).magnitude <= 1.25f)
             {
@@ -70,6 +80,27 @@ public class Player : MonoBehaviour
             }
             yield return null;
         }
+	}
+	
+
+    public void StartStaminaDrain()
+    {
+        StartCoroutine(StaminaDrain());
+    }
+
+
+    IEnumerator StaminaDrain()
+    {
+        drainStamina = true;
+
+        while(drainStamina && stamina > 0)
+        {
+            stamina -= stamDrain;
+            yield return drainWait;
+        }
+
+        Debug.Log("DEADZ");
+        drainStamina = false;
     }
 }
 
