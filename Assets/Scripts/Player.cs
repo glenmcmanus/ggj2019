@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     public Inventory inventory;
 
     public float maxStamina;
-    private float stamina;
+    private float stamina = 100;
     public float Stamina { get { return stamina; }
                            set { stamina = value;
                                  if (stamina <= 0)
@@ -112,6 +112,11 @@ public class Player : MonoBehaviour
 
         Debug.Log("DEADZ");
         drainStamina = false;
+    }
+
+    public void StopStaminaDrain()
+    {
+        StopAllCoroutines();
     }
 }
 

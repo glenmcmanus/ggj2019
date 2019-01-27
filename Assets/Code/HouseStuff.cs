@@ -44,6 +44,7 @@ public class HouseStuff : MonoBehaviour
 
     public UnityEvent DogDies;
     public UnityEvent AfterSubmit;
+    public UnityEvent PassBlocked;
 
     public void StartHouse()
     {
@@ -53,19 +54,12 @@ public class HouseStuff : MonoBehaviour
     public void Submit()
     {
         // Deal with player
-        Player.instance.inventory.food -= foodForYou;
-        Player.instance.inventory.wood -= woodForFire;
-
-        float nextDayStamina = NextDayStamina();
+        Player.instance.Stamina = NextDayStamina();
 
         // Deal with sled building
-        Player.instance.inventory.wood -= woodForSled;
         Sled.instance.GiveWood(woodForSled);
 
         // Deal with pup
-        Player.instance.inventory.food -= foodForDog;
-        Player.instance.inventory.medicine -= medicineForDog;
-
         dogDisease = DogsDiseaseNextDay();
         dogHealth = DogsHealthNextDay();
 
@@ -73,7 +67,11 @@ public class HouseStuff : MonoBehaviour
 
         if(dogHealth <= 0)
         {
-            TheDogFuckingDies();
+            DogDies.Invoke();
+        }
+        else if (daysUntilPassBlocked <= 0)
+        {
+            PassBlocked.Invoke();
         }
         else
         {
@@ -110,10 +108,5 @@ public class HouseStuff : MonoBehaviour
         float nextDayStamina = foodForYou * staminaRegenPerFoodForPerson;
         nextDayStamina -= (minWoodForFirePerDay - woodForFire) * staminaLossPerMissingWood;
         return nextDayStamina;
-    }
-
-    public void TheDogFuckingDies()
-    {
-        DogDies.Invoke();
     }
 }
