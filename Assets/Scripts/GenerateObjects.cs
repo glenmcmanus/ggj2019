@@ -5,7 +5,6 @@ using UnityEngine;
 public class GenerateObjects : MonoBehaviour
 {
     public GameObject prefab;
-    public Transform parent;
 
     public float yPos = 0;
     public BoxCollider box;
@@ -44,7 +43,7 @@ public class GenerateObjects : MonoBehaviour
                 continue;
 
             GameObject o = Instantiate(prefab, pos, prefab.transform.rotation);
-            o.transform.SetParent(parent);
+            o.transform.SetParent(transform);
             objects.Add(o);
         }
     }
