@@ -16,7 +16,7 @@ public abstract class Harvestable : Outlinable
 
         if((Player.instance.transform.position - transform.position).magnitude > minDistToHarvest)
         {
-            Player.instance.MoveTowards(transform.position, () => { Harvest(); });
+            Player.instance.MoveTowards(this, transform.position, () => { Harvest(); });
         } else
         {
             Harvest();
