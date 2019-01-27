@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GenerateObjects : MonoBehaviour
 {
-    public GameObject treePrefab;
+    public GameObject[] treePrefabs;
     public GameObject rockPrefab;
     public GameObject medicinePrefab;
     public GameObject foodPrefab;
@@ -61,7 +61,8 @@ public class GenerateObjects : MonoBehaviour
 
             if (treeCounter < maxTrees && ValidPosition(pos))
             {
-                GameObject t = Instantiate(treePrefab, pos, treePrefab.transform.rotation);
+                int tree_i = Random.Range(0, treePrefabs.Length);
+                GameObject t = Instantiate(treePrefabs[tree_i], pos, treePrefabs[tree_i].transform.rotation);
                 t.transform.SetParent(transform);
                 trees.Add(t);
             }
@@ -72,7 +73,7 @@ public class GenerateObjects : MonoBehaviour
             if (rockCounter < maxRocks && ValidPosition(pos))
             {
                 
-                GameObject r = Instantiate(rockPrefab, pos, treePrefab.transform.rotation);
+                GameObject r = Instantiate(rockPrefab, pos, rockPrefab.transform.rotation);
                 r.transform.SetParent(transform);
                 rocks.Add(r);
             }
