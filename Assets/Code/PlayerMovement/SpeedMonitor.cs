@@ -8,7 +8,7 @@ public class SpeedMonitor : MonoBehaviour
     public Animator anim;
     public Vector3 Speed;
 
-    private Vector3 LastPosition;
+    public Vector3 LastPosition;
 
     // Start is called before the first frame update
     void Start()

@@ -6,12 +6,13 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "new Tracks", menuName = "Create new Tracks")]
 public class Tracks : ScriptableObject
 {
-    public Sprite[] spriteStrip;
-    public float duration = 30f;
-    public WaitForSeconds frameRate;
+    public Sprite sprite;
+    public float fadeRate = 1;
+    public float fadeStep = 0.1f;
+    public WaitForSeconds fadeWait;
 
     public void Initialize()
     {
-        frameRate = new WaitForSeconds(duration / spriteStrip.Length);
+        fadeWait = new WaitForSeconds(fadeRate);
     }
 }

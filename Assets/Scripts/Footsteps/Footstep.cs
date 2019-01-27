@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Footstep : MonoBehaviour
 {
-    public Sprite sprite;
-
-    
+    public SpriteRenderer spriteRenderer;
+    public Material mat;
 }
