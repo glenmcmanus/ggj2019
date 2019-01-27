@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2160812250147442367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2160812250147442366}
+  - component: {fileID: 2160812250147442353}
+  - component: {fileID: 2160812250147442352}
+  m_Layer: 0
+  m_Name: Doodads
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2160812250147442366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2160812250147442367}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25, y: 1.4108505, z: 25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2160812250147442353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2160812250147442367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1f41b48a890c7642a2b145e1aaf95f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treePrefabs:
+  - {fileID: 3851666980600498942, guid: 4eff563266964cb4cba09d145ce2e42a, type: 3}
+  - {fileID: 3851666980600498942, guid: 5b7f3922fe363c9448c1b18eece34816, type: 3}
+  - {fileID: 3851666980600498942, guid: 708c440488baf5845b3f4f95916fb94d, type: 3}
+  - {fileID: 3851666980600498942, guid: a35e6ccf86be0054ca042c6e31819612, type: 3}
+  rockPrefab: {fileID: 77444199504528883, guid: ed9a922665a4cae488e1ac830025d004,
+    type: 3}
+  medicinePrefab: {fileID: 6408239793702929816, guid: 793d5b081e5d81542a39fd59758803cc,
+    type: 3}
+  foodPrefab: {fileID: 1974661472409760815, guid: ce441c909d3cef9409d80772a385f044,
+    type: 3}
+  critterPrefabs:
+  - {fileID: 321226598152891191, guid: d4848126b3b9f314a990c087737f051a, type: 3}
+  yPos: 0.28
+  box: {fileID: 2160812250147442352}
+  maxTrees: 125
+  maxRocks: 200
+  maxMedicine: 50
+  maxFood: 5
+  maxCritters: 75
+  minDist: 1
+--- !u!65 &2160812250147442352
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2160812250147442367}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 45, y: 1, z: 45}
+  m_Center: {x: 0, y: 0, z: 0}

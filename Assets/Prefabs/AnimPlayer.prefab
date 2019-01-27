@@ -30,6 +30,36 @@ Transform:
   m_Father: {fileID: 4979270684576399477}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1709683758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1709683759}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1709683759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709683758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.101, y: -1.074, z: -0.203}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4979270684246752144}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4979270684246752157
 GameObject:
   m_ObjectHideFlags: 0
@@ -41,6 +71,7 @@ GameObject:
   - component: {fileID: 4979270684246752144}
   - component: {fileID: 4979270684246752156}
   - component: {fileID: 317897302}
+  - component: {fileID: 606076207}
   m_Layer: 0
   m_Name: AnimPlayer
   m_TagString: Untagged
@@ -60,6 +91,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4979270684576399477}
+  - {fileID: 1709683759}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -98,8 +130,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 4979270684246752156}
+  inventory:
+    wood: 50
+    food: 10
+    medicine: 10
   maxStamina: 100
-  stamina: 100
   durationOfHarvest: 2
   OnHarvestStart:
     m_PersistentCalls:
@@ -169,6 +204,26 @@ MonoBehaviour:
   drainStamina: 0
   stamDrain: 0.001
   drainStep: 1
+--- !u!114 &606076207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4979270684246752157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f60825e2e8ff4c40a1441ef6b641766, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navAgent: {fileID: 1709683759}
+  offset: {x: 0, y: 0, z: 0}
+  trackLag: 0
+  parent: {fileID: 0}
+  prefab: {fileID: 1829943918989575611, guid: 12a5a8031d6fd184896d542bed1ff49b, type: 3}
+  tracks: {fileID: 11400000, guid: ba429defab7a7bd4e88e69d54c6eaf9e, type: 2}
+  monitor: {fileID: 4979270684576399476}
+  minTrackDistance: 0.35
 --- !u!1 &4979270684576399472
 GameObject:
   m_ObjectHideFlags: 0

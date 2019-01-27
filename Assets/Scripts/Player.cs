@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     public Inventory inventory;
 
     public float maxStamina;
-    private float stamina;
+    private float stamina = 100;
     public float Stamina { get { return stamina; }
                            set { stamina = value;
                                  if (stamina <= 0)
@@ -43,7 +43,7 @@ public class Player : MonoBehaviour
         else
         {
             instance = this;
-            inventory = new Inventory();
+            //inventory = new Inventory();
 
             drainWait = new WaitForSeconds(drainStep);
         }
@@ -68,12 +68,12 @@ public class Player : MonoBehaviour
         OnDone();
     }
 
-    public void MoveTowards(Harvestable selected, Vector3 Position, Action OnReached)
+    public void MoveTowards(float howCloseDoYouWannaGet, Vector3 Position, Action OnReached)
     {
-        StartCoroutine(MoveChecks(selected, Position, OnReached));
+        StartCoroutine(MoveChecks(howCloseDoYouWannaGet, Position, OnReached));
     }
 
-    IEnumerator MoveChecks(Harvestable selected, Vector3 Position, Action OnReach)
+    IEnumerator MoveChecks(float howCloseDoYouWannaGet, Vector3 Position, Action OnReach)
     {
         var agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         agent.SetDestination(Position);
@@ -82,8 +82,8 @@ public class Player : MonoBehaviour
 		
 		while (!GoingToNewPosition)
         {
-            Debug.Log((transform.position - Position).magnitude);
-            if((transform.position - Position).magnitude <= selected.minDistToHarvest)
+            Debug.Log(transform.position.XZDifference(Position));
+            if(transform.position.XZDifference(Position) <= howCloseDoYouWannaGet)
             {
                 Debug.Log("Reached");
                 OnReach();
@@ -113,8 +113,14 @@ public class Player : MonoBehaviour
         Debug.Log("DEADZ");
         drainStamina = false;
     }
+
+    public void StopStaminaDrain()
+    {
+        StopAllCoroutines();
+    }
 }
 
+[Serializable]
 public class Inventory
 {
     public int wood;
