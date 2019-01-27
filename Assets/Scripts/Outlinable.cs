@@ -14,13 +14,11 @@ public class Outlinable : MonoBehaviour
         if (!available)
             return;
 
-        Debug.Log("Mouse enter");
         spriteGlow.OutlineWidth = outlineWidth;
     }
 
     public virtual void OnMouseExit()
     {
-        Debug.Log("Mouse exit");
         spriteGlow.OutlineWidth = 0;
     }
 }
