@@ -1,15 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using SpriteGlow;
 using UnityEngine.Events;
 
 [RequireComponent(typeof(SpriteGlowEffect))]
-public class Tree : Harvestable
+public class Food : Harvestable
 {
-    public int woodValue = 1;
+    public int foodValue = 1;
 
-    public UnityEvent OnTreeMined;
+    public UnityEvent OnFoodChopped;
 
     public Sprite SpriteVariant1;
     public Sprite SpriteVariant2;
@@ -21,7 +20,7 @@ public class Tree : Harvestable
 
     public override void HarvestDone()
     {
-        Player.instance.inventory.wood += woodValue;
-        OnTreeMined.Invoke();
+        Player.instance.inventory.food += foodValue;
+        OnFoodChopped.Invoke();
     }
 }
