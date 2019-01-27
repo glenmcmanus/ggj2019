@@ -163,7 +163,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1498114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -316,7 +316,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2861508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -434,7 +434,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &10149261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -588,7 +588,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &20913617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -741,7 +741,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &24274888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -858,7 +858,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &57995380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -975,7 +975,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &65263925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1093,7 +1093,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &80933599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1247,7 +1247,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &119833875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1400,7 +1400,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &123416019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1518,7 +1518,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &127693079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1671,7 +1671,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &137301713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1765,13 +1765,13 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 0.9797964, b: 0.6933962, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1858,7 +1858,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &179797290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2011,7 +2011,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &196848231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2128,7 +2128,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &214670845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2246,7 +2246,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &225522337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2399,7 +2399,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &225773545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2516,7 +2516,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &235658970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2634,7 +2634,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &251532967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2788,7 +2788,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &259093122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2941,7 +2941,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &279075020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3059,7 +3059,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &297288374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3213,7 +3213,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &298178131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3366,7 +3366,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &304543868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3484,7 +3484,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &327827405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3637,7 +3637,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &331667351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3755,7 +3755,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &373578866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3869,6 +3869,7 @@ GameObject:
   - component: {fileID: 387593514}
   - component: {fileID: 387593516}
   - component: {fileID: 387593515}
+  - component: {fileID: 387593517}
   m_Layer: 8
   m_Name: PostProcessVolume
   m_TagString: Untagged
@@ -3915,11 +3916,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 93b9965139c0c434f887a771bffd00c1, type: 2}
+  sharedProfile: {fileID: 11400000, guid: c5462dcdb55ed7445a33cd6b5682f8b3, type: 2}
   isGlobal: 0
   blendDistance: 0
   weight: 1
   priority: 0
+--- !u!114 &387593517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387593513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ab2cb03ac246a419a9443edfb2b88b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light: {fileID: 170076734}
+  daylight: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  moonlight: {r: 0.20358671, g: 0.23584908, b: 0.23043653, a: 1}
+  length: 18
+  stepDelay: 1
+  dayProfile: {fileID: 11400000, guid: 93b9965139c0c434f887a771bffd00c1, type: 2}
+  nightProfile: {fileID: 11400000, guid: dff3b3335b9bf964e872e5eaacda944b, type: 2}
+  volume: {fileID: 387593516}
 --- !u!1 &397611876
 GameObject:
   m_ObjectHideFlags: 0
@@ -3971,7 +3992,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &397611879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4124,7 +4145,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &400274331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4255,7 +4276,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &416260641
 GameObject:
@@ -4308,7 +4329,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &416260644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4462,7 +4483,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &417327214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4616,7 +4637,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &418015087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4770,7 +4791,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &418387549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4902,7 +4923,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4e7875c9c1b308418e0d183646fbfb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxStamina: 0
   stamina: 0
+  drainStamina: 0
+  stamDrain: 0.001
+  drainStep: 1
 --- !u!4 &447840024
 Transform:
   m_ObjectHideFlags: 0
@@ -4915,7 +4940,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &476338584
 GameObject:
@@ -4967,7 +4992,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &476338587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5085,7 +5110,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &494772923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5239,7 +5264,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &509253888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5393,7 +5418,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &514399775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5547,7 +5572,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &526951177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5701,7 +5726,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &529016861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5856,8 +5881,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 3
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -5999,7 +6024,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &539164373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6152,7 +6177,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &548770417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6270,7 +6295,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &559361998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6424,7 +6449,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &560027260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6577,7 +6602,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &560897855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6695,7 +6720,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &565294785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6848,7 +6873,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &581094019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6966,7 +6991,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &585712926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7120,7 +7145,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &594553093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7274,7 +7299,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &610245695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7428,7 +7453,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &638246257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7582,7 +7607,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &638426464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7736,7 +7761,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &639547679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7890,7 +7915,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &646433287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8043,7 +8068,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &646528422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8161,7 +8186,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &659153891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8314,7 +8339,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &662678564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8432,7 +8457,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &680882700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8585,7 +8610,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &686297526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8703,7 +8728,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &690076603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8856,7 +8881,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &702074016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8974,7 +8999,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &738052250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9128,7 +9153,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &755939105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9282,7 +9307,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &760830748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9436,7 +9461,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &770772445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9590,7 +9615,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &771480528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9744,7 +9769,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &773426612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9898,7 +9923,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &780738539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10052,7 +10077,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &803505897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10206,7 +10231,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &819201515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10359,7 +10384,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &820488328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10476,7 +10501,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &822970396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10594,7 +10619,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &835232316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10748,7 +10773,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &838287326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10902,7 +10927,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &839115272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11056,7 +11081,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &855947816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11210,7 +11235,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &869283940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11363,7 +11388,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &881546126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11481,7 +11506,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &884319863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11635,7 +11660,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &901564919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11789,7 +11814,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &911343528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11943,7 +11968,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &917202630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12097,7 +12122,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &920707441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12251,7 +12276,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &923288528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12405,7 +12430,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &927211056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12536,7 +12561,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940543437}
   m_LocalRotation: {x: 0.2164396, y: -0, z: -0, w: 0.97629607}
-  m_LocalPosition: {x: 1.0648727, y: -1.1308506, z: -3.3329544}
+  m_LocalPosition: {x: 1.0648727, y: -0.95, z: -3.3329544}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1627367863}
@@ -12559,7 +12584,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &940543440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12712,7 +12737,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &948008138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12830,7 +12855,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &954039823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12984,7 +13009,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &956620322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13137,7 +13162,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &976993429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13254,7 +13279,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &984150398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13372,7 +13397,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &986977306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13475,69 +13500,6 @@ PolygonCollider2D:
       - {x: 0.16, y: -0.25}
       - {x: 0.16, y: -0.03}
       - {x: 0.12, y: 0.06}
---- !u!1 &987298180
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 987298183}
-  - component: {fileID: 987298182}
-  - component: {fileID: 987298181}
-  m_Layer: 0
-  m_Name: Generator
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &987298181
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 987298180}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 45, y: 1, z: 45}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &987298182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 987298180}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1f41b48a890c7642a2b145e1aaf95f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 3851666980600498942, guid: 4eff563266964cb4cba09d145ce2e42a, type: 3}
-  parent: {fileID: 1627367863}
-  yPos: 0.28
-  box: {fileID: 987298181}
-  maxObjects: 250
-  minDist: 1
---- !u!4 &987298183
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 987298180}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25, y: 0, z: 25}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &995895194
 GameObject:
   m_ObjectHideFlags: 0
@@ -13589,7 +13551,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &995895197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13743,7 +13705,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &999431653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13896,7 +13858,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1007397926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14014,7 +13976,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1015650090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14117,6 +14079,75 @@ PolygonCollider2D:
       - {x: 0.16, y: -0.25}
       - {x: 0.16, y: -0.03}
       - {x: 0.12, y: 0.06}
+--- !u!1001 &1017980321
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4979270684246752157, guid: 4c28a7abf97fbf8458108d8ec002b41b,
+        type: 3}
+      propertyPath: m_Name
+      value: AnimPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4979270684246752144, guid: 4c28a7abf97fbf8458108d8ec002b41b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4979270684246752144, guid: 4c28a7abf97fbf8458108d8ec002b41b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4979270684246752144, guid: 4c28a7abf97fbf8458108d8ec002b41b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.7665502
+      objectReference: {fileID: 0}
+    - target: {fileID: 4979270684246752144, guid: 4c28a7abf97fbf8458108d8ec002b41b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4979270684246752144, guid: 4c28a7abf97fbf8458108d8ec002b41b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4979270684246752144, guid: 4c28a7abf97fbf8458108d8ec002b41b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4979270684246752144, guid: 4c28a7abf97fbf8458108d8ec002b41b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4979270684246752144, guid: 4c28a7abf97fbf8458108d8ec002b41b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4979270684246752144, guid: 4c28a7abf97fbf8458108d8ec002b41b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4979270684246752144, guid: 4c28a7abf97fbf8458108d8ec002b41b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4979270684246752144, guid: 4c28a7abf97fbf8458108d8ec002b41b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4c28a7abf97fbf8458108d8ec002b41b, type: 3}
 --- !u!1 &1019093295
 GameObject:
   m_ObjectHideFlags: 0
@@ -14168,7 +14199,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1019093298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14322,7 +14353,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1075431317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14476,7 +14507,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1101283754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14630,7 +14661,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1104255175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14783,7 +14814,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1109150580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14900,7 +14931,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1115719852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15018,7 +15049,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1118021778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15172,7 +15203,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1157163709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15326,7 +15357,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1164726699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15480,7 +15511,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1166528255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15634,7 +15665,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1166533506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15788,7 +15819,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1167052767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15942,7 +15973,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1168783524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16095,7 +16126,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1194917961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16213,7 +16244,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1195921988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16367,7 +16398,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1198702965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16521,7 +16552,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1202985638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16674,7 +16705,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1208686846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16791,7 +16822,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1212821903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16908,7 +16939,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1241244025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17026,7 +17057,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1244342292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17180,7 +17211,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1261509958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17333,7 +17364,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1286595457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17450,7 +17481,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1296167171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17568,7 +17599,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1323377627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17722,7 +17753,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1328961073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17875,7 +17906,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1336132839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17992,7 +18023,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1339234276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18110,7 +18141,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1361201963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18264,7 +18295,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1362979987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18418,7 +18449,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1397253284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18572,7 +18603,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1406947859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18726,7 +18757,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1411967689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18880,7 +18911,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1416838716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19034,7 +19065,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1428894631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19187,7 +19218,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1431063383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19305,7 +19336,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1443074415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19458,7 +19489,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1444683478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19576,7 +19607,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1445314863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19730,7 +19761,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1448356450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19884,7 +19915,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1453169409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20038,7 +20069,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1471061087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20192,7 +20223,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1480464490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20346,7 +20377,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1488819570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20500,7 +20531,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1494462673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20653,7 +20684,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1533536808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20770,7 +20801,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1534682589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20888,7 +20919,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1546645877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21042,7 +21073,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1549402342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21196,7 +21227,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1549556861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21350,7 +21381,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1551320153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21504,7 +21535,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1560640859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21658,7 +21689,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1574866308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21812,7 +21843,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1584003135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21965,7 +21996,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1587177460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22083,7 +22114,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1615449957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22195,6 +22226,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1627367863}
+  - component: {fileID: 1627367864}
+  - component: {fileID: 1627367865}
   m_Layer: 0
   m_Name: Trees
   m_TagString: Untagged
@@ -22424,8 +22457,38 @@ Transform:
   - {fileID: 1339234274}
   - {fileID: 1241244023}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1627367864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627367862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1f41b48a890c7642a2b145e1aaf95f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3851666980600498942, guid: 4eff563266964cb4cba09d145ce2e42a, type: 3}
+  yPos: 0.28
+  box: {fileID: 1627367865}
+  maxObjects: 250
+  minDist: 1
+--- !u!65 &1627367865
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627367862}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 45, y: 1, z: 45}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1637456941
 GameObject:
   m_ObjectHideFlags: 0
@@ -22476,7 +22539,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1637456944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22594,7 +22657,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1642500196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22748,7 +22811,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1653785846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22902,7 +22965,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1665480002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23005,6 +23068,36 @@ PolygonCollider2D:
       - {x: 0.16, y: -0.25}
       - {x: 0.16, y: -0.03}
       - {x: 0.12, y: 0.06}
+--- !u!1 &1697544159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1697544160}
+  m_Layer: 0
+  m_Name: Medicine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1697544160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697544159}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.021397, y: -0.24527094, z: 28.218792}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1699623293
 GameObject:
   m_ObjectHideFlags: 0
@@ -23056,7 +23149,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1699623296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23159,6 +23252,170 @@ PolygonCollider2D:
       - {x: 0.16, y: -0.25}
       - {x: 0.16, y: -0.03}
       - {x: 0.12, y: 0.06}
+--- !u!1001 &1711697206
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2594562307398536029, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_Name
+      value: UI Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307398536025, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307956669081, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307956669081, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562307956669081, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_inputSource
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562308787557579, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562308787557579, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562308787557579, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_inputSource
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562309399803681, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562309399803681, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562309399803681, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_inputSource
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6f71581b6f066cc4dafeceaa36f0532b, type: 3}
 --- !u!1 &1722006184
 GameObject:
   m_ObjectHideFlags: 0
@@ -23210,7 +23467,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1722006187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23364,7 +23621,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1724644667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23518,7 +23775,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1730177783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23672,7 +23929,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1739915252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23825,7 +24082,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1743701027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23943,7 +24200,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1747911478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24097,7 +24354,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1755393122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24251,7 +24508,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1774320212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24405,7 +24662,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1777422437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24558,7 +24815,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1778366900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24675,7 +24932,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1780626764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24792,7 +25049,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1781924635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24909,7 +25166,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1782729416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25027,7 +25284,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1786703245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25181,7 +25438,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1807103855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25335,7 +25592,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1826322437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25489,7 +25746,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1854291854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25642,7 +25899,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1867972649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25760,7 +26017,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1880873763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25914,7 +26171,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1882040003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26067,7 +26324,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1882105764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26185,7 +26442,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1907503503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26339,7 +26596,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1912816041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26572,7 +26829,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1919074452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26726,7 +26983,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1921262014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26879,7 +27136,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1922619375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26997,7 +27254,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1923700698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27151,7 +27408,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1931476638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27305,7 +27562,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1937516498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27458,7 +27715,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1944313409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27576,7 +27833,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1956254722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27730,7 +27987,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1965343143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27884,7 +28141,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &1999968180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28038,7 +28295,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2010742573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28192,7 +28449,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2019412516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28345,7 +28602,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2031121858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28463,7 +28720,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2033509913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28617,7 +28874,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2036659752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28771,7 +29028,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2041212703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28924,7 +29181,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2046458326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29042,7 +29299,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2051043470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29195,7 +29452,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2051889816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29312,7 +29569,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2062153890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29430,7 +29687,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2076636906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29583,7 +29840,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2091803713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29700,7 +29957,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2104278799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29818,7 +30075,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2118377121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29972,7 +30229,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2123390776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30126,7 +30383,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2131001663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30280,7 +30537,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2134760687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30433,7 +30690,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2135171203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30551,7 +30808,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2138478204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30705,7 +30962,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2141488912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30859,7 +31116,7 @@ MonoBehaviour:
   outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 1
-  enableInstancing: 0
+  enableInstancing: 1
 --- !u!114 &2144913543
 MonoBehaviour:
   m_ObjectHideFlags: 0

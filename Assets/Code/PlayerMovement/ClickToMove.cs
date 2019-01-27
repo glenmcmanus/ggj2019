@@ -10,11 +10,12 @@ public class ClickToMove : MonoBehaviour
 
     public UnityEventVector3 OnClickHit;
 
+    public bool IsEnabled { get; set; } = true;
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(IsEnabled && Input.GetMouseButtonDown(0))
         {
             var ray = MainCamera.ScreenPointToRay(Input.mousePosition);
 

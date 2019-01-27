@@ -2,28 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 using SpriteGlow;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(SpriteGlowEffect))]
-public class Tree : Outlinable
+public class Tree : Harvestable
 {
     public int woodValue = 1;
 
-    public SpriteRenderer spriteRenderer;
-    public Sprite stump;
+    public UnityEvent OnTreeMined;
 
-    public void OnMouseDown()
+    public Sprite SpriteVariant1;
+    public Sprite SpriteVariant2;
+
+    public void Start()
     {
-        if (!available)
-            return;
-
-        Harvest();
+        GetComponent<SpriteRenderer>().sprite = Random.value > 0.5f ? SpriteVariant1 : SpriteVariant2;
     }
 
-    public void Harvest()
+    public override void HarvestDone()
     {
         Player.instance.inventory.wood += woodValue;
-        available = false;
-        spriteRenderer.sprite = stump;
+        OnTreeMined.Invoke();
     }
-    
 }
