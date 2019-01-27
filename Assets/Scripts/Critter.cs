@@ -63,7 +63,7 @@ public class Critter : MonoBehaviour
             {
                 if (vMag < 0.01f)
                 {
-                    Debug.Log("rabbit stopped");
+                   // Debug.Log("rabbit stopped");
                     yield return wanderWait;
 
                     agent.SetDestination(new Vector3(Random.Range(-nextBounds.x, nextBounds.x) + transform.position.x, transform.position.y, Random.Range(-nextBounds.y, nextBounds.y) + transform.position.z));
