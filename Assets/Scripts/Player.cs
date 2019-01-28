@@ -70,7 +70,7 @@ public class Player : MonoBehaviour
             OnHarvestCritterStart.Invoke();
             GetComponentInChildren<SpriteRenderer>().flipX = transform.position.x > selected.transform.position.x;
             yield return new WaitForSeconds(selected.durationOfHarvest);
-            OnHarvestCritterStart.Invoke();
+            OnHarvestCritterFinished.Invoke();
             OnDone();
         }
         else
@@ -98,7 +98,6 @@ public class Player : MonoBehaviour
 		
 		while (!GoingToNewPosition)
         {
-            Debug.Log(transform.position.XZDifference(Position));
             if(transform.position.XZDifference(Position) <= howCloseDoYouWannaGet)
             {
                 Debug.Log("Reached");
