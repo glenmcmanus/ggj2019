@@ -7,6 +7,8 @@ TextureImporter:
     21300004: Dead Animals_2
     21300006: Dead Animals_3
     21300008: Dead Animals_4
+    21300010: Dead Animals_5
+    21300012: Dead Animals_6
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -103,7 +105,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5545b60db50206249a41db9bf2c895e5
+      spriteID: 50fbfc693fd37c64c9a7769ad36a48c2
       vertices: []
       indices: 
       edges: []
@@ -123,7 +125,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 235822f2f3f99c34aa6676bf89de70ec
+      spriteID: b7111f4194d60f4449ca53405bc0f297
       vertices: []
       indices: 
       edges: []
@@ -143,7 +145,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a91fa67441205c541aa5e2ece10f82ab
+      spriteID: e657847f22294f8459635ec572b97d9d
       vertices: []
       indices: 
       edges: []
@@ -163,7 +165,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db65582a72a2c2246962793f17e65633
+      spriteID: 350d1e0c8e5d4e049b572dff362fefa5
       vertices: []
       indices: 
       edges: []
@@ -183,7 +185,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8977c43807a91f344a8ed34e3c6dd4c3
+      spriteID: e09fd141abd30c44589517300eac3067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Animals_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd024f7dfb184e44a191b75c5bea593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Animals_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78656d8551025f141a158e585de47589
       vertices: []
       indices: 
       edges: []

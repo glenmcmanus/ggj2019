@@ -10,7 +10,7 @@ public class ClickToMove : MonoBehaviour
 
     public UnityEventVector3 OnClickHit;
 
-    public bool IsEnabled { get; set; } = true;
+    public bool IsEnabled { get; set; } = false;
 
     // Update is called once per frame
     void Update()
