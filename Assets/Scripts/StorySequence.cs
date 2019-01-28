@@ -42,6 +42,7 @@ public class StorySequence : MonoBehaviour
             }
             t = 0;
 
+            yield return wait;
 
             while (t <= 1)
             {
