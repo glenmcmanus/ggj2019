@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -825,11 +825,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 31293910}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 2112139026}
   animator: {fileID: 31293909}
-  spriteRenderer: {fileID: 31293910}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &33660395
@@ -1141,11 +1147,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 37301940}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 603659523}
   animator: {fileID: 37301939}
-  spriteRenderer: {fileID: 37301940}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &38889857
@@ -1234,6 +1246,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &38889861
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1883,11 +1896,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 51279769}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1235663759}
   animator: {fileID: 51279768}
-  spriteRenderer: {fileID: 51279769}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &52404008
@@ -2053,7 +2072,7 @@ SpriteRenderer:
   m_Size: {x: 1.28, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &54105965
@@ -2224,11 +2243,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 54384945}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 58055741}
   animator: {fileID: 54384944}
-  spriteRenderer: {fileID: 54384945}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &58055739
@@ -2684,6 +2709,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &70556895
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2946,11 +2972,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 78504872}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 826168410}
   animator: {fileID: 78504871}
-  spriteRenderer: {fileID: 78504872}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &86045954
@@ -3039,6 +3071,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &86045958
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3272,6 +3305,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &91501252
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3790,11 +3824,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 98833495}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1705824533}
   animator: {fileID: 98833494}
-  spriteRenderer: {fileID: 98833495}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &98997949
@@ -4007,11 +4047,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 99079996}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 572203617}
   animator: {fileID: 99079995}
-  spriteRenderer: {fileID: 99079996}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &100253622
@@ -4100,6 +4146,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &100253626
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5004,6 +5051,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &144266430
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5901,6 +5949,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &186320003
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6449,6 +6498,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &204551759
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6922,11 +6972,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 211261877}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1243647332}
   animator: {fileID: 211261876}
-  spriteRenderer: {fileID: 211261877}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &213277595
@@ -7671,11 +7727,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 247655876}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1205418683}
   animator: {fileID: 247655875}
-  spriteRenderer: {fileID: 247655876}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &248136686
@@ -8377,6 +8439,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &282290849
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8833,6 +8896,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &294973842
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8967,6 +9031,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &297126136
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9244,11 +9309,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 302553630}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 204955971}
   animator: {fileID: 302553629}
-  spriteRenderer: {fileID: 302553630}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &302789954
@@ -9435,6 +9506,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &306189870
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9741,11 +9813,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 312019554}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1036988696}
   animator: {fileID: 312019553}
-  spriteRenderer: {fileID: 312019554}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!114 &317897302 stripped
@@ -9998,6 +10076,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &326211138
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10158,11 +10237,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 326919615}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 396128633}
   animator: {fileID: 326919614}
-  spriteRenderer: {fileID: 326919615}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &336413150
@@ -10549,11 +10634,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 349114726}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 319189352}
   animator: {fileID: 349114725}
-  spriteRenderer: {fileID: 349114726}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &350583153
@@ -10766,11 +10857,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 354289400}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 471231647}
   animator: {fileID: 354289399}
-  spriteRenderer: {fileID: 354289400}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &358610412
@@ -10948,11 +11045,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 362288957}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1279385673}
   animator: {fileID: 362288956}
-  spriteRenderer: {fileID: 362288957}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1001 &366188795
@@ -11146,11 +11249,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 367714170}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 495532619}
   animator: {fileID: 367714169}
-  spriteRenderer: {fileID: 367714170}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &369194121
@@ -11607,11 +11716,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 384765200}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1190905098}
   animator: {fileID: 384765199}
-  spriteRenderer: {fileID: 384765200}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &384816158
@@ -11726,11 +11841,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 384816161}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1063141269}
   animator: {fileID: 384816160}
-  spriteRenderer: {fileID: 384816161}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &386101747
@@ -12785,6 +12906,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &414936108
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13478,6 +13600,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &425921552
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13736,11 +13859,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 430720920}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 2044249930}
   animator: {fileID: 430720919}
-  spriteRenderer: {fileID: 430720920}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &433196763
@@ -13940,6 +14069,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &437186566
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14470,11 +14600,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 442875836}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 301135476}
   animator: {fileID: 442875835}
-  spriteRenderer: {fileID: 442875836}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &445264192
@@ -14563,6 +14699,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &445264196
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14906,6 +15043,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &456483296
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15445,8 +15583,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  SpriteVariant1: {fileID: 21300002, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
-  SpriteVariant2: {fileID: 21300004, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
 --- !u!65 &482317266
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15612,6 +15748,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &484701832
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15794,6 +15931,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &490744038
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15928,6 +16066,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &491804777
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16214,6 +16353,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &499001807
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16447,6 +16587,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &502199615
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16581,6 +16722,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &502959890
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17567,11 +17709,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 520140813}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 613087488}
   animator: {fileID: 520140812}
-  spriteRenderer: {fileID: 520140813}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &521611925
@@ -18289,11 +18437,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 534713602}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1832093435}
   animator: {fileID: 534713601}
-  spriteRenderer: {fileID: 534713602}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &539189158
@@ -19668,11 +19822,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 569916017}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1101820980}
   animator: {fileID: 569916016}
-  spriteRenderer: {fileID: 569916017}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &571289248
@@ -20308,6 +20468,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &581736628
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20629,11 +20790,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 586825499}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 2141780767}
   animator: {fileID: 586825498}
-  spriteRenderer: {fileID: 586825499}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &595495672
@@ -21204,6 +21371,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &609479246
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21638,6 +21806,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &625372566
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22883,11 +23052,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 668018103}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1647660966}
   animator: {fileID: 668018102}
-  spriteRenderer: {fileID: 668018103}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &669169250
@@ -23236,6 +23411,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &671303337
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23791,6 +23967,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &693314685
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23925,6 +24102,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &694869207
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24807,6 +24985,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &728889039
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26150,6 +26329,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &760508271
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26408,11 +26588,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 764151328}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 2133746405}
   animator: {fileID: 764151327}
-  spriteRenderer: {fileID: 764151328}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &765409048
@@ -26527,11 +26713,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 765409051}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1169407860}
   animator: {fileID: 765409050}
-  spriteRenderer: {fileID: 765409051}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &768263686
@@ -26620,6 +26812,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &768263690
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28820,6 +29013,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &844707336
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29293,6 +29487,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &863253318
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29797,6 +29992,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &871974004
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30649,6 +30845,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &916665642
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31042,6 +31239,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &936018111
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31274,6 +31472,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &945575377
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31793,11 +31992,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 956677770}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 791546132}
   animator: {fileID: 956677769}
-  spriteRenderer: {fileID: 956677770}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &956730532
@@ -32543,6 +32748,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &969217348
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32801,11 +33007,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 972015231}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 248136688}
   animator: {fileID: 972015230}
-  spriteRenderer: {fileID: 972015231}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &972925368
@@ -33090,6 +33302,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &974763351
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33535,6 +33748,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &987000959
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33669,6 +33883,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &989315960
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34115,11 +34330,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1005521049}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1786147369}
   animator: {fileID: 1005521048}
-  spriteRenderer: {fileID: 1005521049}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1008115186
@@ -34208,6 +34429,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1008115190
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34390,6 +34612,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1017483179
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34670,6 +34893,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1034738586
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34956,6 +35180,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1039844178
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -35748,6 +35973,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1073989065
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36006,11 +36232,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1075390337}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 416985607}
   animator: {fileID: 1075390336}
-  spriteRenderer: {fileID: 1075390337}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1076530923
@@ -36562,11 +36794,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1083403509}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1992185050}
   animator: {fileID: 1083403508}
-  spriteRenderer: {fileID: 1083403509}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1084873719
@@ -36833,6 +37071,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1092180538
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37223,11 +37462,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1109412707}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1891828525}
   animator: {fileID: 1109412706}
-  spriteRenderer: {fileID: 1109412707}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1110042531
@@ -37405,11 +37650,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1119326067}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1888889265}
   animator: {fileID: 1119326066}
-  spriteRenderer: {fileID: 1119326067}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1120020795
@@ -38918,6 +39169,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1157384011
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39052,6 +39304,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1158780313
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39910,6 +40163,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1176299433
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40070,11 +40324,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1176825991}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1450967113}
   animator: {fileID: 1176825990}
-  spriteRenderer: {fileID: 1176825991}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1179637984
@@ -40448,11 +40708,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1184760161}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1610026507}
   animator: {fileID: 1184760160}
-  spriteRenderer: {fileID: 1184760161}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1188220090
@@ -41264,11 +41530,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1211060252}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 77675426}
   animator: {fileID: 1211060251}
-  spriteRenderer: {fileID: 1211060252}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1212016876
@@ -41939,6 +42211,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1234979570
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -42226,6 +42499,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1239788654
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -42360,6 +42634,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1241301703
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -43149,6 +43424,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1275707134
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -43400,6 +43676,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1281529342
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -44914,6 +45191,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1334026230
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -45629,11 +45907,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1343104401}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1692342982}
   animator: {fileID: 1343104400}
-  spriteRenderer: {fileID: 1343104401}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1349301915
@@ -46494,6 +46778,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1381702405
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -46726,6 +47011,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1392902348
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -47244,11 +47530,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1413242883}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1156593975}
   animator: {fileID: 1413242882}
-  spriteRenderer: {fileID: 1413242883}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1413656970
@@ -47695,6 +47987,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1421395686
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48116,6 +48409,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1436259274
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48437,11 +48731,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1446691749}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1967067886}
   animator: {fileID: 1446691748}
-  spriteRenderer: {fileID: 1446691749}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1447025174
@@ -48765,11 +49065,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1450170521}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1513376788}
   animator: {fileID: 1450170520}
-  spriteRenderer: {fileID: 1450170521}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1450967111
@@ -49037,11 +49343,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1454581314}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1295198351}
   animator: {fileID: 1454581313}
-  spriteRenderer: {fileID: 1454581314}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1477194259
@@ -49219,11 +49531,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1482938188}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 2013223642}
   animator: {fileID: 1482938187}
-  spriteRenderer: {fileID: 1482938188}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1486238346
@@ -49410,6 +49728,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1486621442
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -49740,6 +50059,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1490576547
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -50097,11 +50417,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1509659206}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 962168863}
   animator: {fileID: 1509659205}
-  spriteRenderer: {fileID: 1509659206}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1510968817
@@ -50190,6 +50516,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1510968821
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -50844,11 +51171,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1528440707}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 69218172}
   animator: {fileID: 1528440706}
-  spriteRenderer: {fileID: 1528440707}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1529826299
@@ -51133,6 +51466,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1531875381
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -51356,11 +51690,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1545237015}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1135561603}
   animator: {fileID: 1545237014}
-  spriteRenderer: {fileID: 1545237015}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1548198042
@@ -52683,6 +53023,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1585747841
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -52891,11 +53232,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1591590282}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 2121678417}
   animator: {fileID: 1591590281}
-  spriteRenderer: {fileID: 1591590282}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1593264975
@@ -53106,11 +53453,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1598360829}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 2048002332}
   animator: {fileID: 1598360828}
-  spriteRenderer: {fileID: 1598360829}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1599989114
@@ -53781,6 +54134,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1609513299
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -54487,11 +54841,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1624913155}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 805089083}
   animator: {fileID: 1624913154}
-  spriteRenderer: {fileID: 1624913155}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1629658695
@@ -55064,11 +55424,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1638806585}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1318142191}
   animator: {fileID: 1638806584}
-  spriteRenderer: {fileID: 1638806585}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1640091779
@@ -55380,11 +55746,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1646727777}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1169386068}
   animator: {fileID: 1646727776}
-  spriteRenderer: {fileID: 1646727777}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1647660964
@@ -56162,6 +56534,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1668692942
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -56831,11 +57204,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1701231843}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 837532286}
   animator: {fileID: 1701231842}
-  spriteRenderer: {fileID: 1701231843}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1703567929
@@ -57365,11 +57744,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1708895585}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 272106620}
   animator: {fileID: 1708895584}
-  spriteRenderer: {fileID: 1708895585}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1711041424
@@ -57604,6 +57989,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1712432567
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -57836,6 +58222,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1713825872
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -58059,11 +58446,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1723072966}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 2122188177}
   animator: {fileID: 1723072965}
-  spriteRenderer: {fileID: 1723072966}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1723772279
@@ -58474,11 +58867,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1741148960}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1045149784}
   animator: {fileID: 1741148959}
-  spriteRenderer: {fileID: 1741148960}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1741608183
@@ -58728,6 +59127,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1743015850
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -58888,11 +59288,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1743126659}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 140334654}
   animator: {fileID: 1743126658}
-  spriteRenderer: {fileID: 1743126659}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!4 &1749265914 stripped
@@ -59407,6 +59813,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1770780431
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -59567,11 +59974,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1771633327}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 192548287}
   animator: {fileID: 1771633326}
-  spriteRenderer: {fileID: 1771633327}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1771707145
@@ -60021,6 +60434,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1786375829
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -60538,11 +60952,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1793189671}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 786452452}
   animator: {fileID: 1793189670}
-  spriteRenderer: {fileID: 1793189671}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1793344996
@@ -60631,6 +61051,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1793345000
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -61671,8 +62092,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  SpriteVariant1: {fileID: 21300002, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
-  SpriteVariant2: {fileID: 21300004, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
 --- !u!65 &1822521809
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61998,11 +62417,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1825269163}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1703567931}
   animator: {fileID: 1825269162}
-  spriteRenderer: {fileID: 1825269163}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1826808808
@@ -62117,11 +62542,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1826808811}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1332745124}
   animator: {fileID: 1826808810}
-  spriteRenderer: {fileID: 1826808811}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1831684932
@@ -62460,6 +62891,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1855931661
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -62620,11 +63052,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1861633055}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1132126634}
   animator: {fileID: 1861633054}
-  spriteRenderer: {fileID: 1861633055}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1862887796
@@ -63229,11 +63667,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1867210654}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 909456720}
   animator: {fileID: 1867210653}
-  spriteRenderer: {fileID: 1867210654}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1867506518
@@ -64846,6 +65290,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1911070076
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -65141,6 +65586,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1920796535
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -65536,6 +65982,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1931117250
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -65696,11 +66143,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1931170076}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1128385620}
   animator: {fileID: 1931170075}
-  spriteRenderer: {fileID: 1931170076}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1939350572
@@ -65789,6 +66242,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1939350576
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -66594,6 +67048,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1968752519
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -67284,6 +67739,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1987686205
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -67570,6 +68026,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1994832133
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -67704,6 +68161,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1996152919
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -68025,11 +68483,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 2009498377}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1686571794}
   animator: {fileID: 2009498376}
-  spriteRenderer: {fileID: 2009498377}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &2011759176
@@ -68327,8 +68791,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  SpriteVariant1: {fileID: 21300002, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
-  SpriteVariant2: {fileID: 21300004, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
 --- !u!65 &2020555005
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69127,11 +69589,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 2048230680}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 1659245493}
   animator: {fileID: 2048230679}
-  spriteRenderer: {fileID: 2048230680}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &2051256170
@@ -69220,6 +69688,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &2051256174
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -69354,6 +69823,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &2054038626
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -70092,6 +70562,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &2069873205
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -70486,6 +70957,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &2088991270
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -71025,6 +71497,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &2102772157
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -71353,8 +71826,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  SpriteVariant1: {fileID: 21300002, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
-  SpriteVariant2: {fileID: 21300004, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
 --- !u!65 &2112247248
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71546,11 +72017,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 2118958867}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
   alive: 1
   agent: {fileID: 989825457}
   animator: {fileID: 2118958866}
-  spriteRenderer: {fileID: 2118958867}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &2121678415
@@ -71979,6 +72456,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &2134681843
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -72211,6 +72689,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &2139123569
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -72625,14 +73104,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnimPlayer
       objectReference: {fileID: 0}
-    - target: {fileID: 317897302, guid: 4c28a7abf97fbf8458108d8ec002b41b, type: 3}
-      propertyPath: OnHarvestStart.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 599235723}
-    - target: {fileID: 317897302, guid: 4c28a7abf97fbf8458108d8ec002b41b, type: 3}
-      propertyPath: OnHarvestFinished.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 599235723}
     - target: {fileID: 4979270684246752144, guid: 4c28a7abf97fbf8458108d8ec002b41b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -72688,6 +73159,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 317897302, guid: 4c28a7abf97fbf8458108d8ec002b41b, type: 3}
+      propertyPath: OnHarvestStart.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 599235723}
+    - target: {fileID: 317897302, guid: 4c28a7abf97fbf8458108d8ec002b41b, type: 3}
+      propertyPath: OnHarvestFinished.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 599235723}
     - target: {fileID: 606076207, guid: 4c28a7abf97fbf8458108d8ec002b41b, type: 3}
       propertyPath: parent
       value: 
@@ -72936,12 +73415,27 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2594562307513867928, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594562308462517054, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2594562309341163710, guid: 6f71581b6f066cc4dafeceaa36f0532b,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 6075da3fccd1e204f92e08393dc0f895,
         type: 3}
+    - target: {fileID: 7270496088984762593, guid: 6f71581b6f066cc4dafeceaa36f0532b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f71581b6f066cc4dafeceaa36f0532b, type: 3}
 --- !u!1001 &5784349961105029238
@@ -73151,16 +73645,6 @@ PrefabInstance:
       propertyPath: AfterSubmit.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5784349961080867514, guid: a9c2a99f4f2e1594383c06d64fb27b87,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5784349961080867514, guid: a9c2a99f4f2e1594383c06d64fb27b87,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5784349962359926786, guid: a9c2a99f4f2e1594383c06d64fb27b87,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -73171,22 +73655,22 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5784349961287079557, guid: a9c2a99f4f2e1594383c06d64fb27b87,
+    - target: {fileID: 5784349961569919416, guid: a9c2a99f4f2e1594383c06d64fb27b87,
         type: 3}
       propertyPath: m_havePropertiesChanged
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5784349961287079557, guid: a9c2a99f4f2e1594383c06d64fb27b87,
+    - target: {fileID: 5784349961569919416, guid: a9c2a99f4f2e1594383c06d64fb27b87,
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5784349961569919416, guid: a9c2a99f4f2e1594383c06d64fb27b87,
+    - target: {fileID: 5784349961287079557, guid: a9c2a99f4f2e1594383c06d64fb27b87,
         type: 3}
       propertyPath: m_havePropertiesChanged
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5784349961569919416, guid: a9c2a99f4f2e1594383c06d64fb27b87,
+    - target: {fileID: 5784349961287079557, guid: a9c2a99f4f2e1594383c06d64fb27b87,
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
@@ -73221,16 +73705,6 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5784349961555822001, guid: a9c2a99f4f2e1594383c06d64fb27b87,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5784349961555822001, guid: a9c2a99f4f2e1594383c06d64fb27b87,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5784349961536876335, guid: a9c2a99f4f2e1594383c06d64fb27b87,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -73241,32 +73715,12 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5784349961946001087, guid: a9c2a99f4f2e1594383c06d64fb27b87,
+    - target: {fileID: 5784349961555822001, guid: a9c2a99f4f2e1594383c06d64fb27b87,
         type: 3}
       propertyPath: m_havePropertiesChanged
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5784349961946001087, guid: a9c2a99f4f2e1594383c06d64fb27b87,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5784349962164678369, guid: a9c2a99f4f2e1594383c06d64fb27b87,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5784349962164678369, guid: a9c2a99f4f2e1594383c06d64fb27b87,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5784349962655133576, guid: a9c2a99f4f2e1594383c06d64fb27b87,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5784349962655133576, guid: a9c2a99f4f2e1594383c06d64fb27b87,
+    - target: {fileID: 5784349961555822001, guid: a9c2a99f4f2e1594383c06d64fb27b87,
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
@@ -73294,6 +73748,46 @@ PrefabInstance:
     - target: {fileID: 376996594, guid: a9c2a99f4f2e1594383c06d64fb27b87, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784349961080867514, guid: a9c2a99f4f2e1594383c06d64fb27b87,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784349961080867514, guid: a9c2a99f4f2e1594383c06d64fb27b87,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784349962655133576, guid: a9c2a99f4f2e1594383c06d64fb27b87,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784349962655133576, guid: a9c2a99f4f2e1594383c06d64fb27b87,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784349961946001087, guid: a9c2a99f4f2e1594383c06d64fb27b87,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784349961946001087, guid: a9c2a99f4f2e1594383c06d64fb27b87,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784349962164678369, guid: a9c2a99f4f2e1594383c06d64fb27b87,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784349962164678369, guid: a9c2a99f4f2e1594383c06d64fb27b87,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9c2a99f4f2e1594383c06d64fb27b87, type: 3}

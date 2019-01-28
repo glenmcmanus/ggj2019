@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Critter : MonoBehaviour
+public class Critter : Harvestable
 {
     public bool alive = true;
     public NavMeshAgent agent;
     public Animator animator;
-    public SpriteRenderer spriteRenderer;
     public bool fleeing;
+
+    public GameObject corpse;
 
     [Header("Wander")]
     [Tooltip("Min/max offset range from current position to wander to next")]
@@ -81,5 +82,12 @@ public class Critter : MonoBehaviour
 
         alive = false;
 
+    }
+
+    public override void HarvestDone()
+    {
+        Instantiate(corpse, transform.position, Quaternion.identity);
+        spriteGlow.enabled = false;
+        Destroy(transform.parent.gameObject);
     }
 }

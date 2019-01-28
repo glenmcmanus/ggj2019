@@ -29,6 +29,9 @@ namespace SpriteGlow
         {
             for (int i = 0; i < sharedMaterials.Count; i++)
             {
+                if (spriteGlow == null || spriteGlow.Renderer == null || spriteGlow.Renderer.sprite == null)
+                    return null;
+
                 if (sharedMaterials[i].SpriteTexture == spriteGlow.Renderer.sprite.texture &&
                     sharedMaterials[i].DrawOutside == spriteGlow.DrawOutside &&
                     sharedMaterials[i].InstancingEnabled == spriteGlow.EnableInstancing)
