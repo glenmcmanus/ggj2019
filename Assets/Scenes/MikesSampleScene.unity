@@ -15392,7 +15392,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 478424394}
-  - component: {fileID: 478424393}
   - component: {fileID: 478424392}
   m_Layer: 0
   m_Name: GameObject
@@ -15413,23 +15412,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aee8fc9951f517d4ebdef1be7344a1b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &478424393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478424391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e919c7fa66fa664ca2bb4eb276c7da5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
+  SceneUnloaded:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 478424392}
-        m_MethodName: LoadSceneHome
+      - m_Target: {fileID: 1000253574}
+        m_MethodName: ThrowUnityEvent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -34093,6 +34080,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 599235723}
         m_MethodName: set_IsEnabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 746482706}
+        m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -73287,7 +73285,7 @@ PrefabInstance:
     - target: {fileID: 5784349961137849388, guid: a9c2a99f4f2e1594383c06d64fb27b87,
         type: 3}
       propertyPath: AfterSubmit.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5784349961137849388, guid: a9c2a99f4f2e1594383c06d64fb27b87,
         type: 3}
@@ -73298,11 +73296,11 @@ PrefabInstance:
         type: 3}
       propertyPath: AfterSubmit.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 746482706}
+      objectReference: {fileID: 478424392}
     - target: {fileID: 5784349961137849388, guid: a9c2a99f4f2e1594383c06d64fb27b87,
         type: 3}
       propertyPath: AfterSubmit.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetActive
+      value: LoadSceneHome
       objectReference: {fileID: 0}
     - target: {fileID: 5784349961137849388, guid: a9c2a99f4f2e1594383c06d64fb27b87,
         type: 3}
@@ -73313,6 +73311,21 @@ PrefabInstance:
         type: 3}
       propertyPath: AfterSubmit.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784349961137849388, guid: a9c2a99f4f2e1594383c06d64fb27b87,
+        type: 3}
+      propertyPath: AfterSubmit.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784349961137849388, guid: a9c2a99f4f2e1594383c06d64fb27b87,
+        type: 3}
+      propertyPath: AfterSubmit.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784349961137849388, guid: a9c2a99f4f2e1594383c06d64fb27b87,
+        type: 3}
+      propertyPath: AfterSubmit.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5784349961080867514, guid: a9c2a99f4f2e1594383c06d64fb27b87,
         type: 3}
