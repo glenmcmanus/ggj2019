@@ -6,10 +6,11 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public string sceneName;
+    public StorySequence sequence;
 
     public void StartGame()
     {
-        SceneManager.LoadScene(sceneName);
+        sequence.StartSequence();
     }
 
     public void ExitGame()
