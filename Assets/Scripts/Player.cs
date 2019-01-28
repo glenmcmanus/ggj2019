@@ -52,6 +52,7 @@ public class Player : MonoBehaviour
     public void Die()
     {
         Debug.Log("You are dead");
+        GameOver.instance.OnGameOver();
     }
 
     public void Harvest(Harvestable selected, Action OnDone)
