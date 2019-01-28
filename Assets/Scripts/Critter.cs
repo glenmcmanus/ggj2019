@@ -67,6 +67,8 @@ public class Critter : Harvestable
                    // Debug.Log("rabbit stopped");
                     yield return wanderWait;
 
+                    if (gameObject == null) break;
+
                     agent.SetDestination(new Vector3(Random.Range(-nextBounds.x, nextBounds.x) + transform.position.x, transform.position.y, Random.Range(-nextBounds.y, nextBounds.y) + transform.position.z));
                 }
             }

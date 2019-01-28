@@ -8,6 +8,8 @@ public abstract class Harvestable : Outlinable
     public Sprite afterHarvestSprite;
 
     public float minDistToHarvest = 3;
+    public float staminaReduction = 1f;
+    public float durationOfHarvest = 2f;
 
     public void OnMouseDown()
     {
@@ -30,6 +32,7 @@ public abstract class Harvestable : Outlinable
         {
             available = false;
             spriteRenderer.sprite = afterHarvestSprite;
+            Player.instance.Stamina -= staminaReduction;
             HarvestDone();
         });
     }

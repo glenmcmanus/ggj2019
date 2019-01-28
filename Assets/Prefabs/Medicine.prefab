@@ -42,11 +42,11 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 0.13, y: 0.1, z: 0.1}
+  m_Extents: {x: 0.075, y: 0.1, z: 0.1}
   m_MoveThreshold: 0.1
   m_Carve: 0
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: -0.2, z: 0}
+  m_Center: {x: -0.03, y: 0.16, z: 0}
   m_TimeToStationary: 0.5
 --- !u!1 &7898604104476023606
 GameObject:
@@ -159,8 +159,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.25774646, y: 0.13258934, z: 0.20000005}
-  m_Center: {x: 0.0078572035, y: -0.21096426, z: 0}
+  m_Size: {x: 0.16015244, y: 0.22258633, z: 0.20000005}
+  m_Center: {x: -0.026983023, y: 0.15910462, z: 0}
 --- !u!114 &7898604104476023601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,6 +179,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 7898604104476023603}
   afterHarvestSprite: {fileID: 21300012, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
   minDistToHarvest: 0.55
+  staminaReduction: 1
+  durationOfHarvest: 0.77
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:

@@ -131,9 +131,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   agent: {fileID: 4979270684246752156}
   inventory:
-    wood: 50
-    food: 10
-    medicine: 10
+    wood: 0
+    food: 0
+    medicine: 0
   maxStamina: 100
   durationOfHarvest: 2
   OnHarvestStart:
@@ -202,7 +202,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   drainStamina: 0
-  stamDrain: 0.001
+  stamDrain: 0.33333334
   drainStep: 1
 --- !u!114 &606076207
 MonoBehaviour:

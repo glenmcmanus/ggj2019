@@ -24,6 +24,9 @@ public class Player : MonoBehaviour
     public UnityEvent OnHarvestStart;
     public UnityEvent OnHarvestFinished;
 
+    public UnityEvent OnHarvestCritterStart;
+    public UnityEvent OnHarvestCritterFinished;
+
     public bool GoingToNewPosition { get; set; } = false;
 
     public bool drainStamina;
@@ -62,11 +65,23 @@ public class Player : MonoBehaviour
 
     IEnumerator HarvestPrivate(Harvestable selected, Action OnDone)
     {
-        OnHarvestStart.Invoke();
-        GetComponentInChildren<SpriteRenderer>().flipX = transform.position.x > selected.transform.position.x;
-        yield return new WaitForSeconds(durationOfHarvest);
-        OnHarvestFinished.Invoke();
-        OnDone();
+        if(selected is Critter)
+        {
+            OnHarvestCritterStart.Invoke();
+            GetComponentInChildren<SpriteRenderer>().flipX = transform.position.x > selected.transform.position.x;
+            yield return new WaitForSeconds(selected.durationOfHarvest);
+            OnHarvestCritterStart.Invoke();
+            OnDone();
+        }
+        else
+        {
+            OnHarvestStart.Invoke();
+            GetComponentInChildren<SpriteRenderer>().flipX = transform.position.x > selected.transform.position.x;
+            yield return new WaitForSeconds(selected.durationOfHarvest);
+            OnHarvestFinished.Invoke();
+            OnDone();
+        }
+        
     }
 
     public void MoveTowards(float howCloseDoYouWannaGet, Vector3 Position, Action OnReached)
