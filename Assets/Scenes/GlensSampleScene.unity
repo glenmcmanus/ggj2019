@@ -326,6 +326,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 8298628}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -981,11 +983,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 22532111}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1658921104}
   animator: {fileID: 22532110}
-  spriteRenderer: {fileID: 22532111}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &25441096
@@ -1040,6 +1050,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 25441101}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -1347,6 +1359,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 35594827}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1357604063}
   woodValue: 1
   OnTreeMined:
@@ -1938,6 +1952,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 53262871}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -2340,6 +2356,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 64513366}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1045759450}
   woodValue: 1
   OnTreeMined:
@@ -2463,6 +2481,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 66716855}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -2713,6 +2733,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 70384083}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1682540008}
   woodValue: 1
   OnTreeMined:
@@ -3010,6 +3032,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 87323518}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1404381683}
   woodValue: 1
   OnTreeMined:
@@ -3354,11 +3378,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 96188493}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1797898377}
   animator: {fileID: 96188492}
-  spriteRenderer: {fileID: 96188493}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &101324259
@@ -3821,11 +3853,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 108209678}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 889836159}
   animator: {fileID: 108209677}
-  spriteRenderer: {fileID: 108209678}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &113078699
@@ -4236,6 +4276,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 116006099}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 506885448}
   woodValue: 1
   OnTreeMined:
@@ -4568,6 +4610,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 122586727}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1271938049}
   woodValue: 1
   OnTreeMined:
@@ -4855,6 +4899,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 128831602}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 911091959}
   woodValue: 1
   OnTreeMined:
@@ -5088,6 +5134,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 136453062}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 802667193}
   woodValue: 1
   OnTreeMined:
@@ -5411,6 +5459,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 146303139}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -5598,6 +5648,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 147068825}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -6139,11 +6191,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 159414591}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1148894298}
   animator: {fileID: 159414590}
-  spriteRenderer: {fileID: 159414591}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &159449776
@@ -6406,6 +6466,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 168758092}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1693590048}
   woodValue: 1
   OnTreeMined:
@@ -6696,6 +6758,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 176066149}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -7479,6 +7543,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 198952133}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -8031,11 +8097,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 210718139}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1987893457}
   animator: {fileID: 210718138}
-  spriteRenderer: {fileID: 210718139}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &212357301
@@ -8150,11 +8224,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 212357304}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 513657076}
   animator: {fileID: 212357303}
-  spriteRenderer: {fileID: 212357304}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &217885308
@@ -8382,6 +8464,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 221100475}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 149052245}
   woodValue: 1
   OnTreeMined:
@@ -8925,6 +9009,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 248720013}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -9124,11 +9210,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 248768452}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1381030468}
   animator: {fileID: 248768451}
-  spriteRenderer: {fileID: 248768452}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &260708964
@@ -9427,6 +9521,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 273247592}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -9626,11 +9722,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 275752976}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 922829291}
   animator: {fileID: 275752975}
-  spriteRenderer: {fileID: 275752976}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &285455491
@@ -9745,11 +9849,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 285455494}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1277684586}
   animator: {fileID: 285455493}
-  spriteRenderer: {fileID: 285455494}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &285724743
@@ -10244,6 +10356,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 301497051}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -10481,6 +10595,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 302724348}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -10896,11 +11012,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 309766267}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 883365640}
   animator: {fileID: 309766266}
-  spriteRenderer: {fileID: 309766267}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &312248157
@@ -11211,6 +11335,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 329090068}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 419849661}
   woodValue: 1
   OnTreeMined:
@@ -11346,6 +11472,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 329564277}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 231079584}
   woodValue: 1
   OnTreeMined:
@@ -11535,6 +11663,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 334982231}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1420431879}
   woodValue: 1
   OnTreeMined:
@@ -12418,6 +12548,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 375983044}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 875491038}
   woodValue: 1
   OnTreeMined:
@@ -12993,6 +13125,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 397049193}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1260225848}
   woodValue: 1
   OnTreeMined:
@@ -13489,6 +13623,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 412309341}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1923418523}
   woodValue: 1
   OnTreeMined:
@@ -13771,11 +13907,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 413156650}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 361249154}
   animator: {fileID: 413156649}
-  spriteRenderer: {fileID: 413156650}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &414844439
@@ -13884,6 +14028,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 414871025}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -14133,6 +14279,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 423500709}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1059423691}
   woodValue: 1
   OnTreeMined:
@@ -14268,6 +14416,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 429093147}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 2101426681}
   woodValue: 1
   OnTreeMined:
@@ -14829,6 +14979,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 0}
+  inventory:
+    wood: 0
+    food: 0
+    medicine: 0
   maxStamina: 0
   durationOfHarvest: 0
   OnHarvestStart:
@@ -14837,6 +14991,16 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   OnHarvestFinished:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnHarvestCritterStart:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnHarvestCritterFinished:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
@@ -14922,6 +15086,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 449995019}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 2121401039}
   woodValue: 1
   OnTreeMined:
@@ -15057,6 +15223,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 450285878}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1254143656}
   woodValue: 1
   OnTreeMined:
@@ -15278,6 +15446,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 460684690}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -15742,6 +15912,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 475002895}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 2060999805}
   woodValue: 1
   OnTreeMined:
@@ -15877,6 +16049,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 479806352}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1113430641}
   woodValue: 1
   OnTreeMined:
@@ -16060,6 +16234,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 492953636}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1646018773}
   woodValue: 1
   OnTreeMined:
@@ -16258,6 +16434,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 497361007}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 666587903}
   woodValue: 1
   OnTreeMined:
@@ -16738,6 +16916,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 508554439}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -17029,14 +17209,14 @@ MonoBehaviour:
   spriteRenderer: {fileID: 515788043}
   afterHarvestSprite: {fileID: 21300000, guid: 4225e273229df864da582ab593502d02, type: 3}
   minDistToHarvest: 0.9
+  staminaReduction: 1
+  durationOfHarvest: 2
   foodValue: 1
   OnFoodChopped:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  SpriteVariant1: {fileID: 21300002, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
-  SpriteVariant2: {fileID: 21300004, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
 --- !u!65 &515788041
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17180,6 +17360,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 519729875}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 821837330}
   woodValue: 1
   OnTreeMined:
@@ -17708,6 +17890,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 527666809}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1321282326}
   woodValue: 1
   OnTreeMined:
@@ -18813,11 +18997,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 547938691}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1516228924}
   animator: {fileID: 547938690}
-  spriteRenderer: {fileID: 547938691}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &549464984
@@ -19300,11 +19492,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 564304729}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1222584100}
   animator: {fileID: 564304728}
-  spriteRenderer: {fileID: 564304729}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &567036459
@@ -19419,11 +19619,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 567036462}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 183462023}
   animator: {fileID: 567036461}
-  spriteRenderer: {fileID: 567036462}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &568217154
@@ -19750,6 +19958,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 574614343}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1470367435}
   woodValue: 1
   OnTreeMined:
@@ -19933,11 +20143,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 575838447}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 710050442}
   animator: {fileID: 575838446}
-  spriteRenderer: {fileID: 575838447}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &575925183
@@ -20004,6 +20222,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 575925187}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 113148260}
   woodValue: 1
   OnTreeMined:
@@ -20250,11 +20470,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 581994858}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1760140099}
   animator: {fileID: 581994857}
-  spriteRenderer: {fileID: 581994858}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &587019621
@@ -20309,6 +20537,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 587019626}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -20724,11 +20954,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 598969232}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1344930650}
   animator: {fileID: 598969231}
-  spriteRenderer: {fileID: 598969232}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &609515113
@@ -20795,6 +21033,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 609515117}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 767039859}
   woodValue: 1
   OnTreeMined:
@@ -21028,6 +21268,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 614240849}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 822319394}
   woodValue: 1
   OnTreeMined:
@@ -21347,6 +21589,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 622785038}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -21486,6 +21730,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 628629770}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -21821,14 +22067,14 @@ MonoBehaviour:
   spriteRenderer: {fileID: 637657534}
   afterHarvestSprite: {fileID: 21300000, guid: 4225e273229df864da582ab593502d02, type: 3}
   minDistToHarvest: 0.9
+  staminaReduction: 1
+  durationOfHarvest: 2
   foodValue: 1
   OnFoodChopped:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  SpriteVariant1: {fileID: 21300002, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
-  SpriteVariant2: {fileID: 21300004, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
 --- !u!65 &637657532
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22366,6 +22612,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 656956221}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -22726,11 +22974,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 665214104}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 596288531}
   animator: {fileID: 665214103}
-  spriteRenderer: {fileID: 665214104}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &665610937
@@ -23158,11 +23414,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 682471165}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1172372856}
   animator: {fileID: 682471164}
-  spriteRenderer: {fileID: 682471165}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &683318208
@@ -23229,6 +23493,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 683318212}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 521497908}
   woodValue: 1
   OnTreeMined:
@@ -23609,11 +23875,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 699120209}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 2047919447}
   animator: {fileID: 699120208}
-  spriteRenderer: {fileID: 699120209}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &700901866
@@ -24143,6 +24417,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 715117951}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -24817,11 +25093,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 741688790}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 665610939}
   animator: {fileID: 741688789}
-  spriteRenderer: {fileID: 741688790}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &742697965
@@ -25135,6 +25419,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 743244475}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -25334,6 +25620,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 749892675}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 10172461}
   woodValue: 1
   OnTreeMined:
@@ -25615,11 +25903,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 754920249}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1850844424}
   animator: {fileID: 754920248}
-  spriteRenderer: {fileID: 754920249}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &755228226
@@ -25886,11 +26182,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 758229784}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1893150438}
   animator: {fileID: 758229783}
-  spriteRenderer: {fileID: 758229784}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &762418269
@@ -26350,6 +26654,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 776536023}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 712918130}
   woodValue: 1
   OnTreeMined:
@@ -26485,6 +26791,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 777660022}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1121493565}
   woodValue: 1
   OnTreeMined:
@@ -26710,6 +27018,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 786479205}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -26996,6 +27306,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 798522525}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -27343,6 +27655,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 806213927}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 506009189}
   woodValue: 1
   OnTreeMined:
@@ -28018,6 +28332,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 828017381}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -29070,6 +29386,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 859068581}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -29794,6 +30112,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 889400313}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 397432755}
   woodValue: 1
   OnTreeMined:
@@ -30046,6 +30366,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 893105438}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 219933995}
   woodValue: 1
   OnTreeMined:
@@ -30229,11 +30551,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 901778436}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 305010891}
   animator: {fileID: 901778435}
-  spriteRenderer: {fileID: 901778436}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &909773608
@@ -30348,11 +30678,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 909773611}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 560592567}
   animator: {fileID: 909773610}
-  spriteRenderer: {fileID: 909773611}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &910814129
@@ -30419,6 +30757,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 910814133}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1442257499}
   woodValue: 1
   OnTreeMined:
@@ -30652,6 +30992,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 916163991}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 532598798}
   woodValue: 1
   OnTreeMined:
@@ -31452,11 +31794,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 933338700}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1902000178}
   animator: {fileID: 933338699}
-  spriteRenderer: {fileID: 933338700}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &934028135
@@ -31621,6 +31971,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 937069632}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 183085006}
   woodValue: 1
   OnTreeMined:
@@ -31903,6 +32255,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 941191148}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 856226968}
   woodValue: 1
   OnTreeMined:
@@ -32235,6 +32589,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 951926026}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1866396584}
   woodValue: 1
   OnTreeMined:
@@ -32456,6 +32812,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 958644224}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -32987,6 +33345,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 982853198}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -33186,11 +33546,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 990188271}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 350996218}
   animator: {fileID: 990188270}
-  spriteRenderer: {fileID: 990188271}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &995024328
@@ -33502,11 +33870,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 998131543}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 123327708}
   animator: {fileID: 998131542}
-  spriteRenderer: {fileID: 998131543}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1002742358
@@ -33621,11 +33997,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1002742361}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 330069033}
   animator: {fileID: 1002742360}
-  spriteRenderer: {fileID: 1002742361}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1007242557
@@ -33692,6 +34076,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1007242561}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 2021676250}
   woodValue: 1
   OnTreeMined:
@@ -34269,6 +34655,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1014411733}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1023584226}
   woodValue: 1
   OnTreeMined:
@@ -34404,6 +34792,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1015596614}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 125849478}
   woodValue: 1
   OnTreeMined:
@@ -34694,6 +35084,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1020841857}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -34943,6 +35335,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1023629755}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 870982886}
   woodValue: 1
   OnTreeMined:
@@ -35126,11 +35520,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1025164562}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1041580452}
   animator: {fileID: 1025164561}
-  spriteRenderer: {fileID: 1025164562}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1027163726
@@ -35521,6 +35923,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1040673352}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1373018736}
   woodValue: 1
   OnTreeMined:
@@ -36759,6 +37163,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1080809420}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1836244396}
   woodValue: 1
   OnTreeMined:
@@ -36942,11 +37348,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1084275908}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1927552402}
   animator: {fileID: 1084275907}
-  spriteRenderer: {fileID: 1084275908}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1084751097
@@ -37061,11 +37475,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1084751100}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1476525333}
   animator: {fileID: 1084751099}
-  spriteRenderer: {fileID: 1084751100}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1093727846
@@ -37132,6 +37554,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1093727850}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 381697601}
   woodValue: 1
   OnTreeMined:
@@ -37315,11 +37739,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1097280279}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 739707584}
   animator: {fileID: 1097280278}
-  spriteRenderer: {fileID: 1097280279}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1097525933
@@ -38741,6 +39173,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1145289274}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1515924572}
   woodValue: 1
   OnTreeMined:
@@ -38864,6 +39298,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1145683613}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -39167,6 +39603,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1153176054}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1574516529}
   woodValue: 1
   OnTreeMined:
@@ -39561,6 +39999,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1168073004}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1891053964}
   woodValue: 1
   OnTreeMined:
@@ -40834,6 +41274,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1209107188}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1852933348}
   woodValue: 1
   OnTreeMined:
@@ -41017,11 +41459,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1211804847}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 2086296141}
   animator: {fileID: 1211804846}
-  spriteRenderer: {fileID: 1211804847}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1215171383
@@ -41234,11 +41684,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1218858610}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 2093836076}
   animator: {fileID: 1218858609}
-  spriteRenderer: {fileID: 1218858610}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1222584098
@@ -41505,6 +41963,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1239966938}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1487367835}
   woodValue: 1
   OnTreeMined:
@@ -42188,6 +42648,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1261933880}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1705359512}
   woodValue: 1
   OnTreeMined:
@@ -42371,11 +42833,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1266812290}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1295307630}
   animator: {fileID: 1266812289}
-  spriteRenderer: {fileID: 1266812290}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1271938047
@@ -43195,6 +43665,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1281546780}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1925638023}
   woodValue: 1
   OnTreeMined:
@@ -43318,6 +43790,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1281619440}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -43741,11 +44215,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1287526021}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 933094188}
   animator: {fileID: 1287526020}
-  spriteRenderer: {fileID: 1287526021}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1290076336
@@ -43910,6 +44392,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1290542098}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1189257037}
   woodValue: 1
   OnTreeMined:
@@ -44701,11 +45185,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1341474688}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1923801126}
   animator: {fileID: 1341474687}
-  spriteRenderer: {fileID: 1341474688}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1342578752
@@ -44772,6 +45264,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1342578756}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1189162687}
   woodValue: 1
   OnTreeMined:
@@ -45135,11 +45629,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1350787152}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1776934101}
   animator: {fileID: 1350787151}
-  spriteRenderer: {fileID: 1350787152}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1357604061
@@ -45606,6 +46108,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1371199864}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -46252,11 +46756,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1393595719}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 786194876}
   animator: {fileID: 1393595718}
-  spriteRenderer: {fileID: 1393595719}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1396109036
@@ -46311,6 +46823,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1396109041}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -46671,6 +47185,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1408306338}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 963351031}
   woodValue: 1
   OnTreeMined:
@@ -46806,6 +47322,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1408312802}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1180840930}
   woodValue: 1
   OnTreeMined:
@@ -47378,6 +47896,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1437196237}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 752046681}
   woodValue: 1
   OnTreeMined:
@@ -47624,11 +48144,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1440106422}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 932175047}
   animator: {fileID: 1440106421}
-  spriteRenderer: {fileID: 1440106422}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1441540369
@@ -47695,6 +48223,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1441540373}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 980806721}
   woodValue: 1
   OnTreeMined:
@@ -48335,11 +48865,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1458781530}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1415012961}
   animator: {fileID: 1458781529}
-  spriteRenderer: {fileID: 1458781530}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1460409050
@@ -48553,11 +49091,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1462135626}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1833630547}
   animator: {fileID: 1462135625}
-  spriteRenderer: {fileID: 1462135626}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1468986233
@@ -48862,6 +49408,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1475365363}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -49289,11 +49837,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1484061300}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1360841240}
   animator: {fileID: 1484061299}
-  spriteRenderer: {fileID: 1484061300}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1484272883
@@ -49738,6 +50294,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1488560384}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -49889,6 +50447,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1490018235}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 995024330}
   woodValue: 1
   OnTreeMined:
@@ -50123,6 +50683,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1494017085}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1987428689}
   woodValue: 1
   OnTreeMined:
@@ -50306,11 +50868,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1498383702}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 2013134827}
   animator: {fileID: 1498383701}
-  spriteRenderer: {fileID: 1498383702}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1502227944
@@ -50527,6 +51097,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1504509139}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -51326,11 +51898,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1534736138}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 445389022}
   animator: {fileID: 1534736137}
-  spriteRenderer: {fileID: 1534736138}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1534905251
@@ -51740,11 +52320,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1540530786}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 414844441}
   animator: {fileID: 1540530785}
-  spriteRenderer: {fileID: 1540530786}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1542801009
@@ -52314,11 +52902,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1558645805}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 463599492}
   animator: {fileID: 1558645804}
-  spriteRenderer: {fileID: 1558645805}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1563098612
@@ -52776,6 +53372,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1577213093}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 530861603}
   woodValue: 1
   OnTreeMined:
@@ -52911,6 +53509,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1577382365}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 680043436}
   woodValue: 1
   OnTreeMined:
@@ -53293,6 +53893,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1597083021}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -53638,11 +54240,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1599832055}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 26979898}
   animator: {fileID: 1599832054}
-  spriteRenderer: {fileID: 1599832055}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1602097930
@@ -53772,6 +54382,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1603091286}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 762592676}
   woodValue: 1
   OnTreeMined:
@@ -54105,6 +54717,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1608732589}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 946119074}
   woodValue: 1
   OnTreeMined:
@@ -54551,6 +55165,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1616732716}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -54702,6 +55318,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1624896316}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1272873634}
   woodValue: 1
   OnTreeMined:
@@ -55239,6 +55857,7 @@ MonoBehaviour:
     type: 3}
   critterPrefabs:
   - {fileID: 321226598152891191, guid: d4848126b3b9f314a990c087737f051a, type: 3}
+  - {fileID: 321226598152891191, guid: 9f5023a848fd5f64bb5dda3e2e9435e1, type: 3}
   yPos: 0.28
   box: {fileID: 1627367865}
   maxTrees: 125
@@ -55387,6 +56006,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1634965437}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1803336094}
   woodValue: 1
   OnTreeMined:
@@ -56087,6 +56708,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1652691390}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1549906225}
   woodValue: 1
   OnTreeMined:
@@ -56324,11 +56947,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1659999748}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 60182842}
   animator: {fileID: 1659999747}
-  spriteRenderer: {fileID: 1659999748}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1665849457
@@ -56542,11 +57173,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1678009600}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 756168210}
   animator: {fileID: 1678009599}
-  spriteRenderer: {fileID: 1678009600}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1682540006
@@ -56711,6 +57350,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1684838862}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1372907525}
   woodValue: 1
   OnTreeMined:
@@ -56894,11 +57535,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1691355393}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 103785133}
   animator: {fileID: 1691355392}
-  spriteRenderer: {fileID: 1691355393}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1693590046
@@ -57499,11 +58148,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1708142296}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1073246359}
   animator: {fileID: 1708142295}
-  spriteRenderer: {fileID: 1708142296}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1001 &1711697206
@@ -58167,11 +58824,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1743774335}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 373060234}
   animator: {fileID: 1743774334}
-  spriteRenderer: {fileID: 1743774335}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1745402156
@@ -58337,6 +59002,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1745882408}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 377371649}
   woodValue: 1
   OnTreeMined:
@@ -59963,14 +60630,14 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1815359965}
   afterHarvestSprite: {fileID: 21300000, guid: 4225e273229df864da582ab593502d02, type: 3}
   minDistToHarvest: 0.9
+  staminaReduction: 1
+  durationOfHarvest: 2
   foodValue: 1
   OnFoodChopped:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  SpriteVariant1: {fileID: 21300002, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
-  SpriteVariant2: {fileID: 21300004, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
 --- !u!65 &1815359963
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61130,6 +61797,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1847384029}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 843816448}
   woodValue: 1
   OnTreeMined:
@@ -61319,6 +61988,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1852784212}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 364572743}
   woodValue: 1
   OnTreeMined:
@@ -61663,6 +62334,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1863049393}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 232696579}
   woodValue: 1
   OnTreeMined:
@@ -61846,11 +62519,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1865540489}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1247960797}
   animator: {fileID: 1865540488}
-  spriteRenderer: {fileID: 1865540489}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1866396582
@@ -62735,11 +63416,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1896486118}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1994906631}
   animator: {fileID: 1896486117}
-  spriteRenderer: {fileID: 1896486118}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1902000176
@@ -63057,6 +63746,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1904432401}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1542801011}
   woodValue: 1
   OnTreeMined:
@@ -63388,6 +64079,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1911404217}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1233130034}
   woodValue: 1
   OnTreeMined:
@@ -63523,6 +64216,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1911586218}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1821983386}
   woodValue: 1
   OnTreeMined:
@@ -63823,6 +64518,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1921229503}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -64037,6 +64734,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1922560569}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 2024648717}
   woodValue: 1
   OnTreeMined:
@@ -64539,6 +65238,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1928422652}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 135133708}
   woodValue: 1
   OnTreeMined:
@@ -64772,6 +65473,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1946844093}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 514081127}
   woodValue: 1
   OnTreeMined:
@@ -64955,11 +65658,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 1951821927}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 207624281}
   animator: {fileID: 1951821926}
-  spriteRenderer: {fileID: 1951821927}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &1954151611
@@ -65385,6 +66096,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1956899424}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 184067803}
   woodValue: 1
   OnTreeMined:
@@ -65583,6 +66296,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1970539540}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 930683273}
   woodValue: 1
   OnTreeMined:
@@ -66384,11 +67099,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 2015007868}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 145112389}
   animator: {fileID: 2015007867}
-  spriteRenderer: {fileID: 2015007868}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &2015102478
@@ -66554,6 +67277,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 2019378674}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 843662994}
   woodValue: 1
   OnTreeMined:
@@ -66787,6 +67512,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 2024508602}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 2006957896}
   woodValue: 1
   OnTreeMined:
@@ -67154,6 +67881,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 2031783360}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -67293,6 +68022,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 2036059411}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -67570,6 +68301,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 2045005228}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1097525935}
   woodValue: 1
   OnTreeMined:
@@ -68041,14 +68774,14 @@ MonoBehaviour:
   spriteRenderer: {fileID: 2061541796}
   afterHarvestSprite: {fileID: 21300000, guid: 4225e273229df864da582ab593502d02, type: 3}
   minDistToHarvest: 0.9
+  staminaReduction: 1
+  durationOfHarvest: 2
   foodValue: 1
   OnFoodChopped:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  SpriteVariant1: {fileID: 21300002, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
-  SpriteVariant2: {fileID: 21300004, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
 --- !u!65 &2061541794
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68192,6 +68925,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 2062399446}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1360468867}
   woodValue: 1
   OnTreeMined:
@@ -68489,6 +69224,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 2082235103}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1548895061}
   woodValue: 1
   OnTreeMined:
@@ -68789,11 +69526,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 2088713671}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 354695189}
   animator: {fileID: 2088713670}
-  spriteRenderer: {fileID: 2088713671}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &2092387404
@@ -69098,6 +69843,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 2098159091}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -69395,11 +70142,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 2101468151}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1468986235}
   animator: {fileID: 2101468150}
-  spriteRenderer: {fileID: 2101468151}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &2101944326
@@ -69514,11 +70269,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 2101944329}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 33254672}
   animator: {fileID: 2101944328}
-  spriteRenderer: {fileID: 2101944329}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &2107603178
@@ -69731,11 +70494,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 2108036662}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 1261685834}
   animator: {fileID: 2108036661}
-  spriteRenderer: {fileID: 2108036662}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &2113882683
@@ -69802,6 +70573,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 2113882687}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1757076712}
   woodValue: 1
   OnTreeMined:
@@ -70147,11 +70920,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 2120361851}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 551752609}
   animator: {fileID: 2120361850}
-  spriteRenderer: {fileID: 2120361851}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1 &2121091428
@@ -70206,6 +70987,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 2121091433}
   afterHarvestSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   minDistToHarvest: 1
+  staminaReduction: 1
+  durationOfHarvest: 2
   medicineValue: 1
   OnFoodChopped:
     m_PersistentCalls:
@@ -70518,6 +71301,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 2131389552}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1888988681}
   woodValue: 1
   OnTreeMined:
@@ -70850,6 +71635,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 2136285633}
   afterHarvestSprite: {fileID: 21300000, guid: 84383c0eb76889f4c845b82402fd92ea, type: 3}
   minDistToHarvest: 1.25
+  staminaReduction: 1
+  durationOfHarvest: 2
   topGlow: {fileID: 1176036323}
   woodValue: 1
   OnTreeMined:
@@ -71392,11 +72179,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeaa7ec1e2444c94c89963b7c5769649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineWidth: 1
+  available: 1
+  spriteGlow: {fileID: 0}
+  spriteRenderer: {fileID: 2146116741}
+  afterHarvestSprite: {fileID: 0}
+  minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 201610436}
   animator: {fileID: 2146116740}
-  spriteRenderer: {fileID: 2146116741}
   fleeing: 0
+  corpse: {fileID: 0}
   nextBounds: {x: 2, y: 2}
   wanderDelay: 1
 --- !u!1001 &321226599462282020
