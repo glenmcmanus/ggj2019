@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 321226597945411904}
   - component: {fileID: 4460180861920647482}
   m_Layer: 0
-  m_Name: Rabbit
+  m_Name: Deer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52,10 +52,11 @@ MonoBehaviour:
   spriteRenderer: {fileID: 321226597945411905}
   afterHarvestSprite: {fileID: 0}
   minDistToHarvest: 3
+  staminaReduction: 1
+  durationOfHarvest: 2
   alive: 1
   agent: {fileID: 321226598152891184}
   animator: {fileID: 321226597945411904}
-  spriteRenderer: {fileID: 321226597945411905}
   fleeing: 0
   corpse: {fileID: 1974661472409760815, guid: ce441c909d3cef9409d80772a385f044, type: 3}
   nextBounds: {x: 2, y: 2}
@@ -97,7 +98,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9ea08f37d848ed24d9d0361f8ce31f2b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 232b37639734be444807579790cbbcf0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -118,7 +119,7 @@ Animator:
   m_GameObject: {fileID: 321226597945411911}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3f691bd3881e4cc49ba53dcc24c3cfb5, type: 2}
+  m_Controller: {fileID: 9100000, guid: d8978eaed03ce40449a3624645df7fbc, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -141,7 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   glowColor: {r: 1, g: 1, b: 1, a: 1}
   glowBrightness: 2
-  outlineWidth: 1
+  outlineWidth: 0
   alphaThreshold: 0.01
   drawOutside: 0
   enableInstancing: 0
@@ -156,7 +157,7 @@ GameObject:
   - component: {fileID: 321226598152891185}
   - component: {fileID: 321226598152891184}
   m_Layer: 0
-  m_Name: Rabbit
+  m_Name: Deer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
