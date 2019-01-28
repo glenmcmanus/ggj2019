@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GlensSampleScene.unity
     guid: 304e608d3d2318b41908c9dba5629a07
+  - enabled: 1
+    path: Assets/Scenes/MikesSampleScene.unity
+    guid: 83de364b51e6bb447afc5a7e927b1049
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: 00f129943adfffd4a8a9b1cd70a1a89d
   m_configObjects: {}

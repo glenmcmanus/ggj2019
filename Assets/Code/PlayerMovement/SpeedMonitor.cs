@@ -40,13 +40,24 @@ public class SpeedMonitor : MonoBehaviour
 
     public void StartHarvesting()
     {
-        IsEnabled = false;
+        //IsEnabled = false;
         anim.SetBool("Chopping", true);
     }
 
     public void StopHarvesting()
     {
-        IsEnabled = true;
+        //IsEnabled = true;
         anim.SetBool("Chopping", false);
+    }
+
+    public void HarvestCritter()
+    {
+        //IsEnabled = false;
+        anim.SetTrigger("Shoot");
+    }
+
+    public void StopHarvestCritter()
+    {
+        IsEnabled = true;
     }
 }

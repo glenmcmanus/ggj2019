@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 447821626724091064}
   - component: {fileID: 3320479571028544522}
   m_Layer: 0
-  m_Name: Food
+  m_Name: RabbitCorpse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,7 +46,7 @@ NavMeshObstacle:
   m_MoveThreshold: 0.1
   m_Carve: 0
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: -0.2, z: 0}
+  m_Center: {x: 0, y: 0.1, z: 0}
   m_TimeToStationary: 0.5
 --- !u!1 &3320479571399273089
 GameObject:
@@ -159,8 +159,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.25774646, y: 0.13258934, z: 0.20000005}
-  m_Center: {x: 0.0078572035, y: -0.21096426, z: 0}
+  m_Size: {x: 0.25774646, y: 0.1565597, z: 0.05255556}
+  m_Center: {x: 0.0078572035, y: 0.11092895, z: 0.002342105}
 --- !u!114 &2575649528259958984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,7 +179,9 @@ MonoBehaviour:
   spriteRenderer: {fileID: 3320479571399273092}
   afterHarvestSprite: {fileID: 21300010, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
   minDistToHarvest: 0.7
-  foodValue: 1
+  staminaReduction: 1
+  durationOfHarvest: 1.52
+  foodValue: 2
   OnFoodChopped:
     m_PersistentCalls:
       m_Calls:
@@ -207,5 +209,3 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  SpriteVariant1: {fileID: 21300002, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
-  SpriteVariant2: {fileID: 21300004, guid: 8f32d8254ef287642a0cf03974063c70, type: 3}
