@@ -45,6 +45,7 @@ public class HouseStuff : MonoBehaviour
     public UnityEvent DogDies;
     public UnityEvent AfterSubmit;
     public UnityEvent PassBlocked;
+    public UnityEvent Win;
 
     public void StartHouse()
     {
@@ -74,10 +75,16 @@ public class HouseStuff : MonoBehaviour
         if(dogHealth <= 0)
         {
             DogDies.Invoke();
+            Player.instance.Die();
         }
         else if (daysUntilPassBlocked <= 0)
         {
             PassBlocked.Invoke();
+            Player.instance.Die();
+        }
+        else if (Sled.instance.complete && dogDisease == 0)
+        {
+            Win.Invoke();
         }
         else
         {
@@ -103,6 +110,8 @@ public class HouseStuff : MonoBehaviour
 
     public float DogsDiseaseNextDay()
     {
+        if (this.dogDisease == 0) return 0;
+        
         float dogDisease = this.dogDisease;
         dogDisease += diseaseGrowthPerWoodGone;
         dogDisease -= medicineForDog * diseaseOneMedicineCures;
