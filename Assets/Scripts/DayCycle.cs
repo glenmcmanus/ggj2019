@@ -45,6 +45,7 @@ public class DayCycle : MonoBehaviour
 
     public void StartCycle()
     {
+        StopAllCoroutines();
         light.color = daylight;
 
         bloom.intensity.value = dayBloom.intensity.value;
