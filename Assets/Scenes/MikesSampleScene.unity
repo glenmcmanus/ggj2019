@@ -1234,6 +1234,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &38889861
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2053,7 +2054,7 @@ SpriteRenderer:
   m_Size: {x: 1.28, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &54105965
@@ -2684,6 +2685,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &70556895
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3039,6 +3041,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &86045958
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3272,6 +3275,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &91501252
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4100,6 +4104,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &100253626
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5004,6 +5009,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &144266430
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5901,6 +5907,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &186320003
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6449,6 +6456,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &204551759
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8377,6 +8385,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &282290849
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8833,6 +8842,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &294973842
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8967,6 +8977,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &297126136
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9435,6 +9446,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &306189870
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9998,6 +10010,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &326211138
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12785,6 +12798,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &414936108
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13478,6 +13492,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &425921552
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13940,6 +13955,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &437186566
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14563,6 +14579,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &445264196
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14906,6 +14923,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &456483296
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15365,6 +15383,78 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &478424391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 478424394}
+  - component: {fileID: 478424393}
+  - component: {fileID: 478424392}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &478424392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478424391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aee8fc9951f517d4ebdef1be7344a1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &478424393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478424391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e919c7fa66fa664ca2bb4eb276c7da5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 478424392}
+        m_MethodName: LoadSceneHome
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!4 &478424394
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478424391}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 790.5, y: 39.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &482317263
 GameObject:
   m_ObjectHideFlags: 0
@@ -15612,6 +15702,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &484701832
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15794,6 +15885,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &490744038
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15928,6 +16020,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &491804777
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16214,6 +16307,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &499001807
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16447,6 +16541,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &502199615
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16581,6 +16676,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &502959890
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20308,6 +20404,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &581736628
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21204,6 +21301,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &609479246
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21638,6 +21736,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &625372566
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23236,6 +23335,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &671303337
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23791,6 +23891,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &693314685
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23925,6 +24026,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &694869207
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24807,6 +24909,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &728889039
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26150,6 +26253,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &760508271
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26620,6 +26724,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &768263690
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28820,6 +28925,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &844707336
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29293,6 +29399,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &863253318
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29797,6 +29904,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &871974004
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30649,6 +30757,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &916665642
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31042,6 +31151,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &936018111
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31274,6 +31384,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &945575377
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32543,6 +32654,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &969217348
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33090,6 +33202,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &974763351
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33535,6 +33648,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &987000959
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33669,6 +33783,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &989315960
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34208,6 +34323,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1008115190
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34390,6 +34506,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1017483179
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34670,6 +34787,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1034738586
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34956,6 +35074,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1039844178
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -35748,6 +35867,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1073989065
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36833,6 +36953,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1092180538
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -38918,6 +39039,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1157384011
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39052,6 +39174,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1158780313
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39910,6 +40033,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1176299433
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -41939,6 +42063,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1234979570
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -42226,6 +42351,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1239788654
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -42360,6 +42486,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1241301703
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -43149,6 +43276,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1275707134
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -43400,6 +43528,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1281529342
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -44914,6 +45043,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1334026230
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -46494,6 +46624,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1381702405
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -46726,6 +46857,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1392902348
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -47695,6 +47827,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1421395686
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48116,6 +48249,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1436259274
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -49410,6 +49544,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1486621442
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -49740,6 +49875,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1490576547
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -50190,6 +50326,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1510968821
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -51133,6 +51270,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1531875381
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -52683,6 +52821,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1585747841
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -53781,6 +53920,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1609513299
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -56162,6 +56302,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1668692942
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -57604,6 +57745,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1712432567
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -57836,6 +57978,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1713825872
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -58728,6 +58871,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1743015850
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -59407,6 +59551,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1770780431
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -60021,6 +60166,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1786375829
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -60631,6 +60777,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1793345000
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -62460,6 +62607,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1855931661
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -64846,6 +64994,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1911070076
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -65141,6 +65290,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1920796535
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -65536,6 +65686,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1931117250
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -65789,6 +65940,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1939350576
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -66594,6 +66746,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1968752519
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -67284,6 +67437,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1987686205
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -67570,6 +67724,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1994832133
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -67704,6 +67859,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &1996152919
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -69220,6 +69376,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &2051256174
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -69354,6 +69511,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &2054038626
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -70092,6 +70250,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &2069873205
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -70486,6 +70645,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &2088991270
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -71025,6 +71185,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &2102772157
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -71979,6 +72140,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &2134681843
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -72211,6 +72373,7 @@ MonoBehaviour:
   fallEndAngle: 85
   fallStep: 1
   fallRate: 0.05
+  fallAcceleration: 0.01
 --- !u!212 &2139123569
 SpriteRenderer:
   m_ObjectHideFlags: 0
