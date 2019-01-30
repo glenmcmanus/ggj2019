@@ -36,7 +36,7 @@ public class HouseUI : MonoBehaviour
     public Image staminaBar;
 
     // Wood
-    public bool toSledEnabled { get { return Player.instance.inventory.wood > 0 && Sled.instance.totalWood < Sled.instance.woodNeededForStage5 && Sled.instance.totalWood + houseStuff.woodForSled < Sled.instance.totalWoodNeeded; ; } }
+    public bool toSledEnabled { get { return Player.instance.inventory.wood > 0 && Sled.instance.totalWood < Sled.instance.totalWoodNeeded && Sled.instance.totalWood + houseStuff.woodForSled < Sled.instance.totalWoodNeeded; ; } }
     public bool toFireEnabled { get { return Player.instance.inventory.wood > 0 && houseStuff.minWoodForFirePerDay > houseStuff.woodForFire; } }
     public bool fromSledEnabled { get { return houseStuff.woodForSled > 0; } }
     public bool fromFireEnabled { get { return houseStuff.woodForFire > 0; } }

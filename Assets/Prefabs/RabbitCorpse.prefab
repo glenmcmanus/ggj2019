@@ -181,7 +181,7 @@ MonoBehaviour:
   minDistToHarvest: 0.7
   staminaReduction: 1
   durationOfHarvest: 1.52
-  foodValue: 2
+  foodValue: 1
   OnFoodChopped:
     m_PersistentCalls:
       m_Calls:

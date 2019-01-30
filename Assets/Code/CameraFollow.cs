@@ -24,7 +24,7 @@ public class CameraFollow : MonoBehaviour
         pos.x += xOffset;
         pos.y += yOffset;
         pos.z += zOffset;
-        transform.position = pos;
+        transform.position = (pos + transform.position) / 2;
 
         //transform.LookAt(ToFollow);
     }

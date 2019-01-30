@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class StorySequence : MonoBehaviour
 {
-    public Image image; 
+    public Image image;
+    public TextMeshProUGUI text; 
     public Sprite[] sequence;
     public float delay;
     WaitForSeconds wait;
@@ -23,6 +25,7 @@ public class StorySequence : MonoBehaviour
 
     public void StartSequence()
     {
+        text.text = "";
         image.enabled = true;
         StartCoroutine(RunSequence());
     }
