@@ -7,9 +7,12 @@ public class HouseClickListener : MonoBehaviour
 {
     public UnityEvent houseReached;
     public float minDistanceToInteractWithHouse = 1.5f;
+    public bool interactable { get; set; } = true;
 
     public void OnMouseDown()
     {
+        if (!interactable) return;
+
         if(Player.instance.transform.position.XZDifference(transform.position) > minDistanceToInteractWithHouse)
         {
             Player.instance.MoveTowards(minDistanceToInteractWithHouse, transform.position, () =>

@@ -29,7 +29,7 @@ public class Player : MonoBehaviour
 
     public bool GoingToNewPosition { get; set; } = false;
 
-    public bool drainStamina;
+    public bool drainStamina { get; set; } = false;
     [Tooltip("Amount drained per drain tick")]
     public float stamDrain = 0.001f;
     [Tooltip("Seconds between stam drain ticks")]
@@ -50,6 +50,11 @@ public class Player : MonoBehaviour
 
             drainWait = new WaitForSeconds(drainStep);
         }
+    }
+
+    public void Start()
+    {
+        StartCoroutine(StaminaDrain());
     }
 
     public void Die()
@@ -108,31 +113,16 @@ public class Player : MonoBehaviour
         }
 	}
 	
-
-    public void StartStaminaDrain()
-    {
-        StartCoroutine(StaminaDrain());
-    }
-
-
     IEnumerator StaminaDrain()
     {
-        drainStamina = true;
-
-        while(drainStamina && Stamina > 0)
+        while(Stamina > 0)
         {
-            Stamina -= stamDrain;
+            if(drainStamina) Stamina -= stamDrain;
             yield return drainWait;
         }
 
-        Debug.Log("DEADZ");
-        drainStamina = false;
     }
 
-    public void StopStaminaDrain()
-    {
-        StopAllCoroutines();
-    }
 }
 
 [Serializable]
