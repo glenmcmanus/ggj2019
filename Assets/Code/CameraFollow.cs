@@ -11,10 +11,13 @@ public class CameraFollow : MonoBehaviour
     public float yOffset;
     public float zOffset;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        
+        Vector3 pos = ToFollow.position;
+        pos.x += xOffset;
+        pos.y += yOffset;
+        pos.z += zOffset;
+        transform.position = (pos + transform.position) / 2;
     }
 
     // Update is called once per frame

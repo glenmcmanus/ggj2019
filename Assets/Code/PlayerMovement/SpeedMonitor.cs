@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class SpeedMonitor : MonoBehaviour
 {
     public Animator anim;
+    public bool harvesting;
     public Vector3 Speed;
 
     public Vector3 LastPosition;
@@ -35,29 +36,36 @@ public class SpeedMonitor : MonoBehaviour
 
         anim.SetBool("HorizontalStronger", Mathf.Abs(Speed.x) > Mathf.Abs(Speed.z));
 
+        if (Speed.x == 0 || harvesting == true)
+            return;
+
         GetComponent<SpriteRenderer>().flipX = Speed.x < 0;
     }
 
     public void StartHarvesting()
     {
+        harvesting = true;
         //IsEnabled = false;
         anim.SetBool("Chopping", true);
     }
 
     public void StopHarvesting()
     {
+        harvesting = false;
         //IsEnabled = true;
         anim.SetBool("Chopping", false);
     }
 
     public void HarvestCritter()
     {
+        harvesting = true;
         //IsEnabled = false;
         anim.SetTrigger("Shoot");
     }
 
     public void StopHarvestCritter()
     {
+        harvesting = false;
         IsEnabled = true;
     }
 }

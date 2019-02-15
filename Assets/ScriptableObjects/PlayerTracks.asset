@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: PlayerTracks
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 332ce3febce6cdf44b74915baf92cc29, type: 3}
-  fadeRate: 9
+  fadeRate: 18
   fadeStep: 0.1

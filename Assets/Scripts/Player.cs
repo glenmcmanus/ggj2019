@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
 
     public NavMeshAgent agent;
     public Inventory inventory;
-
+    
     public float maxStamina;
     private float stamina = 100;
     public float Stamina { get { return stamina; }
@@ -73,6 +73,13 @@ public class Player : MonoBehaviour
         if(selected is Critter)
         {
             OnHarvestCritterStart.Invoke();
+
+            while (!agent.isStopped)
+            {
+                yield return null;
+                Debug.Log("stopping to harvest " + selected.name);
+            }
+
             GetComponentInChildren<SpriteRenderer>().flipX = transform.position.x > selected.transform.position.x;
             yield return new WaitForSeconds(selected.durationOfHarvest);
             OnHarvestCritterFinished.Invoke();
@@ -82,6 +89,7 @@ public class Player : MonoBehaviour
         {
             OnHarvestStart.Invoke();
             GetComponentInChildren<SpriteRenderer>().flipX = transform.position.x > selected.transform.position.x;
+            Debug.Log(GetComponentInChildren<SpriteRenderer>().flipX);
             yield return new WaitForSeconds(selected.durationOfHarvest);
             OnHarvestFinished.Invoke();
             OnDone();
@@ -98,12 +106,16 @@ public class Player : MonoBehaviour
     {
         var agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         agent.SetDestination(Position);
+
+        GetComponentInChildren<SpriteRenderer>().flipX = agent.velocity.x < 0;
+        Debug.Log(GetComponentInChildren<SpriteRenderer>().flipX);
+
         yield return null;
         GoingToNewPosition = false;
-		
-		while (!GoingToNewPosition)
+
+        while (!GoingToNewPosition)
         {
-            if(transform.position.XZDifference(Position) <= howCloseDoYouWannaGet)
+            if (transform.position.XZDifference(Position) <= howCloseDoYouWannaGet)
             {
                 Debug.Log("Reached");
                 OnReach();
