@@ -18,25 +18,33 @@ public class DayCycle : MonoBehaviour
     public PostProcessProfile dayProfile;
     Bloom dayBloom;
     Vignette dayVignette;
+    ColorGrading dayGrading;
+
 
     public PostProcessProfile nightProfile;
     Bloom nightBloom;
     Vignette nightVignette;
+    ColorGrading nightGrading;
 
     public PostProcessVolume volume;
     Bloom bloom;
     Vignette vignette;
+    ColorGrading colorGrading;
 
     private void Awake()
     {
         dayBloom = dayProfile.GetSetting<Bloom>();
         dayVignette = dayProfile.GetSetting<Vignette>();
+        dayGrading = dayProfile.GetSetting<ColorGrading>();
 
         nightBloom = nightProfile.GetSetting<Bloom>();
         nightVignette = nightProfile.GetSetting<Vignette>();
+        nightGrading = nightProfile.GetSetting<ColorGrading>();
 
         bloom = volume.profile.GetSetting<Bloom>();
         vignette = volume.profile.GetSetting<Vignette>();
+
+        colorGrading = volume.profile.GetSetting<ColorGrading>();
 
         delay = new WaitForSeconds(stepDelay);
 
@@ -77,6 +85,12 @@ public class DayCycle : MonoBehaviour
             vignette.intensity.Interp(dayVignette.intensity, nightVignette.intensity, t);
             vignette.color.Interp(dayVignette.color, nightVignette.color, t);
             vignette.smoothness.Interp(dayVignette.smoothness, nightVignette.smoothness, t);
+            vignette.opacity.Interp(dayVignette.opacity, nightVignette.opacity, t);
+
+            colorGrading.temperature.Interp(dayGrading.temperature, nightGrading.temperature, t);
+            colorGrading.colorFilter.Interp(dayGrading.colorFilter, nightGrading.colorFilter, t);
+            colorGrading.postExposure.Interp(dayGrading.postExposure, nightGrading.postExposure, t);
+            colorGrading.contrast.Interp(dayGrading.contrast, nightGrading.contrast, t);
 
             light.color = Vector4.Lerp(daylight, moonlight, t);
 

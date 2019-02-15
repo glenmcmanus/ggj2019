@@ -53,6 +53,8 @@ public class GameOver : MonoBehaviour
             yield return fadeWait;
         }
 
+        panel.color = white;
+
         yield return delayWait;
 
         SceneManager.LoadScene(0);

@@ -82,7 +82,6 @@ public class Player : MonoBehaviour
         {
             OnHarvestStart.Invoke();
             GetComponentInChildren<SpriteRenderer>().flipX = transform.position.x > selected.transform.position.x;
-            Debug.Log(GetComponentInChildren<SpriteRenderer>().flipX);
             yield return new WaitForSeconds(selected.durationOfHarvest);
             OnHarvestFinished.Invoke();
             OnDone();
