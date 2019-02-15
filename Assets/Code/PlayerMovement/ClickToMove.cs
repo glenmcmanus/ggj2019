@@ -15,7 +15,7 @@ public class ClickToMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(IsEnabled && Input.GetMouseButtonDown(0))
+        if(IsEnabled && Input.GetMouseButton(0))
         {
             var ray = MainCamera.ScreenPointToRay(Input.mousePosition);
 
