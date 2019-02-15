@@ -29,6 +29,7 @@ public class HouseUI : MonoBehaviour
     public Button fromHumanFood;
     public Button toDogMedicine;
     public Button fromDogMedicine;
+    public Button submit;
 
     public Image dogHealthBar;
     public Image dogDiseaseBar;
@@ -68,6 +69,8 @@ public class HouseUI : MonoBehaviour
 
         toDogMedicine.interactable = medicineToDogEnabled;
         fromDogMedicine.interactable = medicineFromDogEnabled;
+
+        submit.interactable = houseStuff.NextDayStamina() > 0;
 
         currentSledWoodCount.text = houseStuff.woodForSled.ToString();
         woodCount.text = Player.instance.inventory.wood.ToString();

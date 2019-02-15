@@ -73,13 +73,6 @@ public class Player : MonoBehaviour
         if(selected is Critter)
         {
             OnHarvestCritterStart.Invoke();
-
-            while (!agent.isStopped)
-            {
-                yield return null;
-                Debug.Log("stopping to harvest " + selected.name);
-            }
-
             GetComponentInChildren<SpriteRenderer>().flipX = transform.position.x > selected.transform.position.x;
             yield return new WaitForSeconds(selected.durationOfHarvest);
             OnHarvestCritterFinished.Invoke();
