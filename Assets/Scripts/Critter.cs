@@ -53,30 +53,34 @@ public class Critter : Harvestable
         while(alive)
         {
             vMag = agent.velocity.magnitude;
+
+            //animator.SetBool("Move", vMag > 0.01f);
+
+            if (vMag > 0.01f)
+                spriteRenderer.flipX = agent.velocity.x < 0 ? true : false;
+
             if (fleeing)
             {
-                if(vMag > 0.01f)
+                if(vMag < 0.05f)
                 {
                     agent.SetDestination(Vector3.Cross(Player.instance.agent.velocity, Vector3.up) + transform.position);
+                    animator.SetBool("Move", true);
+                    spriteRenderer.flipX = agent.destination.x < transform.position.x;
                 }
             }
             else
             {
-                if (vMag < 0.01f)
+                if (vMag < 0.05f)
                 {
-                   // Debug.Log("rabbit stopped");
+                    animator.SetBool("Move", false);
                     yield return wanderWait;
 
                     if (gameObject == null) break;
 
                     agent.SetDestination(new Vector3(Random.Range(-nextBounds.x, nextBounds.x) + transform.position.x, transform.position.y, Random.Range(-nextBounds.y, nextBounds.y) + transform.position.z));
+                    animator.SetBool("Move", true);
+                    spriteRenderer.flipX = agent.destination.x < transform.position.x;
                 }
-            }
-
-            if(vMag > 0.01f)
-            {
-                spriteRenderer.flipX = agent.velocity.x < 0 ? true : false;
-                animator.SetBool("Move", true);
             }
 
             yield return null;
