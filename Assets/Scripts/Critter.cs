@@ -54,7 +54,7 @@ public class Critter : Harvestable
         {
             vMag = agent.velocity.magnitude;
 
-            //animator.SetBool("Move", vMag > 0.01f);
+            animator.SetBool("Move", vMag > 0.01f);
 
             if (vMag > 0.01f)
                 spriteRenderer.flipX = agent.velocity.x < 0 ? true : false;
